@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Belousov"
+  given-names: "Dmitry"
+  orcid: "https://orcid.org/0009-0006-9216-8901"
+- family-names: "Shuklin"
+  given-names: "Maksim"
+- family-names: "Stepin"
+  given-names: "Alexander"
+- family-names: "Yanovich"
+  given-names: "Yury"
+  orcid: "https://orcid.org/0000-0003-4651-7585"
+title: "ROAR benchmark"
+version: 1.0.0
+date-released: 2024-03-19
+url: "https://github.com/fasghq/ROAR-benchmark"
