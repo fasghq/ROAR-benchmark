@@ -1,0 +1,2484 @@
+[
+  {
+    "SVS": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Mouth information value": 0.04449429177868574,
+            "Moon information value": 0.01631301301777782,
+            "Head information value": 0.10014130903792366,
+            "Body information value": 0.10014130581860206,
+            "Hat information value": 0.07696673044707951,
+            "Hair information value": 0.07164087939733002,
+            "Glasses information value": 0.0020320400021788263,
+            "Eyes information value": 0.06990452752188625,
+            "Clothes information value": 0.4076999063134531,
+            "Beard information value": 0.02782748669464627,
+            "Background information value": 0.0041544634985221434,
+            "Accessory information value": 0.05946653129872203,
+            "Trait count information value": 0.005557836284437904,
+            "Unique": 4.465334131714431e-19
+          },
+          "funTrain": -0.2636433288697804,
+          "funTest": -0.24396652296024932
+        },
+        "unfitted": {
+          "fun": -0.20610670125832037
+        }
+      }
+    }
+  },
+  {
+    "MFER": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "hat under headphones information value": 0.02119958421635853,
+            "smoke information value": 0.010167975787439228,
+            "headphones information value": 0.01182027993691661,
+            "mouth information value": -1.2434675664334049e-17,
+            "eyes information value": 0.015898581671084596,
+            "type information value": -3.984321063458082e-18,
+            "background information value": 0.6108169942879955,
+            "shirt information value": 0.001163681566371411,
+            "4:20 watch information value": 0.019163847112907553,
+            "long hair information value": -1.1827502008567574e-17,
+            "beard information value": 0.010502029844692168,
+            "short hair information value": 0.013346214561593938,
+            "hat over headphones information value": 0.11901759114741585,
+            "chain information value": 0.021033358917787574,
+            "1/1 information value": 0.10427152614143788,
+            "Trait count information value": 0.0001046073185793768,
+            "Unique": 4.270478174286575e-05
+          },
+          "funTrain": -0.5735094391317908,
+          "funTest": -0.3022932394420448
+        },
+        "unfitted": {
+          "fun": -0.06600369932077346
+        }
+      }
+    }
+  },
+  {
+    "SUPERNORMAL": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Earrings information value": 0.0037405853015126094,
+            "Hat information value": 0.0016726494960838463,
+            "Hair information value": 0.020405251946991294,
+            "Neck information value": 0.0032103337523507196,
+            "Top information value": -1.1286032233161832e-17,
+            "Hex information value": 0.05237067131834177,
+            "Background information value": -1.5369681562341817e-17,
+            "??? information value": 3.0132341548529957e-18,
+            "Cover information value": 0.0018931884188403776,
+            "Face Accessory information value": 0.0013359365822692554,
+            "Brooch information value": 0.016969785360174676,
+            "Mouth Piece information value": 0.03452197982684046,
+            "Extraordinary information value": 0.8333251281842148,
+            "Trait count information value": 0.0014283112000986122,
+            "Unique": 0.028584122761001498
+          },
+          "funTrain": -0.10505478031617112,
+          "funTest": -0.03922589056045099
+        },
+        "unfitted": {
+          "fun": -0.017197825417478965
+        }
+      }
+    }
+  },
+  {
+    "BAKC": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Eyes information value": 0.12018799558819199,
+            "Mouth information value": 0.085023809777707,
+            "Neck information value": 0.03177626200162565,
+            "Feet information value": 0.0238003060403,
+            "Fur information value": 0.45376449189403134,
+            "Background information value": 0.06505881307324246,
+            "Back information value": 0.03593871668794529,
+            "Head information value": 0.04189021437722397,
+            "Trait count information value": 0.07116961811114043,
+            "Unique": 0.07116961811114042
+          },
+          "funTrain": -0.22083595190838234,
+          "funTest": -0.005944457694055392
+        },
+        "unfitted": {
+          "fun": 0.011706402412014219
+        }
+      }
+    }
+  },
+  {
+    "MEKA": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Colors information value": 0.08251212743766949,
+            "Chest information value": 0.03365776679028393,
+            "Arms information value": 0.09328565750693063,
+            "Jaws information value": 0.07244952426107325,
+            "Mask information value": 0.11350394800209879,
+            "Eyes information value": 0.05704567981149043,
+            "Helmet information value": 0.16012786934295922,
+            "Meka Type information value": 1.3044722467579053e-18,
+            "Color information value": 0.023854989655813195,
+            "Material information value": 0.07897963141504992,
+            "Weapon information value": 0.08944678811611906,
+            "Legendary information value": 0.09430933745652527,
+            "Trait count information value": 0.04379988645162073,
+            "Unique": 0.057026793752366176
+          },
+          "funTrain": -0.2847997738157631,
+          "funTest": -0.1195930322678288
+        },
+        "unfitted": {
+          "fun": -0.11172777516478817
+        }
+      }
+    }
+  },
+  {
+    "VFT": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Character information value": 0.4000736219051274,
+            "Edition # information value": 8.036802789606347e-18,
+            "Token Benefit information value": 0.02832725332719982,
+            "Spectacular Type information value": 0.08406430950526739,
+            "Rarity information value": 0.08779974991960866,
+            "Gary Originally Owned information value": 0.1515877862601523,
+            "Access Remaining information value": -4.0115480381963664e-18,
+            "Access Type information value": 0.02257488485652881,
+            "Just Art information value": -2.2149376674840986e-18,
+            "Gifts Remaining information value": 0.13944422654875732,
+            "Redemptions information value": 7.282584752831232e-05,
+            "Trait count information value": 7.282584752831735e-05,
+            "Unique": 0.08598251598230176
+          },
+          "funTrain": -0.38599890107446627,
+          "funTest": -0.11463882335679543
+        },
+        "unfitted": {
+          "fun": -0.09156796190136669
+        }
+      }
+    }
+  },
+  {
+    "HAPE": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Heart Number information value": -3.7476572061716e-18,
+            "Birthday information value": 0.13456925619576138,
+            "Headwear information value": -1.8374885795405442e-17,
+            "Clothing information value": -4.9641789298127646e-20,
+            "Eyes information value": -8.189248340221707e-19,
+            "Head information value": -3.3214675099872588e-18,
+            "Fur information value": 0.03087107678024475,
+            "Nose Piercing information value": 0.014412073715917365,
+            "Haircut information value": 0.02226839145872013,
+            "Accessory information value": 0.009956760796563182,
+            "Earrings information value": 0.00742601818780884,
+            "Eyewear information value": 0.011986116202944132,
+            "Jewellery information value": 0.020525929046032655,
+            "Enhanced Background information value": 0.05070546095878085,
+            "Tattoos information value": -8.941484397756466e-18,
+            "Face Addition information value": 0.012188815907450287,
+            "Teeth information value": 0.051495459828023234,
+            "Implants information value": 0.06625315308989467,
+            "Handmade information value": 0.21408418132282278,
+            "Duotone information value": 0.021920275213149442,
+            "Gadget information value": 0.09707309544717624,
+            "Trait count information value": 5.572644073220991e-19,
+            "Unique": 0.23426393584871016
+          },
+          "funTrain": -0.1865070698143331,
+          "funTest": -0.15839281956361276
+        },
+        "unfitted": {
+          "fun": -0.07934619559990476
+        }
+      }
+    }
+  },
+  {
+    "GALAPE": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Head information value": 0.021193877102655263,
+            "Eye Gear information value": 0.01468106124948501,
+            "Mouth information value": 0.25132116763225737,
+            "Type information value": 0.3511585015477471,
+            "Background information value": 1.5287414440776542e-20,
+            "Genus information value": 0.032031067999043594,
+            "Eyes information value": 0.015012684083501121,
+            "Companion information value": 0.2196485363632914,
+            "Trait count information value": 0.0319218333793546,
+            "Unique": 0.03192183337935461
+          },
+          "funTrain": -0.10272531678942767,
+          "funTest": -0.2732911400372082
+        },
+        "unfitted": {
+          "fun": -0.12143822426109196
+        }
+      }
+    }
+  },
+  {
+    "MIL": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Drip Grade information value": 0.030122725731607042,
+            "Core information value": 0.0027389940832405883,
+            "Drip Score information value": 0.09088990208628499,
+            "Neck information value": 0.004219633000902112,
+            "Hair information value": 0.04991033885986167,
+            "Shirt information value": 0.03295348410174758,
+            "Eye Color information value": 0.001935456983905375,
+            "Eyes information value": 0.007855045581893942,
+            "Race information value": 0.025309094871919305,
+            "Background information value": 0.0064580056414697985,
+            "Hat information value": 0.0056805791003970586,
+            "Face Decoration information value": 0.0044231306690090235,
+            "Glasses information value": 0.0015335502861513527,
+            "Necklace information value": 0.0017348433625098097,
+            "Earring information value": 0.0024152867681774986,
+            "Trait count information value": 0.012185853668009346,
+            "Unique": 0.715657852243816
+          },
+          "funTrain": -0.22324996757533194,
+          "funTest": -0.03616481146981398
+        },
+        "unfitted": {
+          "fun": 0.001535843392002311
+        }
+      }
+    }
+  },
+  {
+    "TERRAFORMS": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "??? information value": 1.7534125152917124e-16,
+            "Chroma information value": -1.2737987672947102e-16,
+            "Biome information value": 0.5780355827692983,
+            "Zone information value": -1.3851689738350674e-17,
+            "Mode information value": 0.0504752525619968,
+            "Y Coordinate information value": 0.34231240453820555,
+            "X Coordinate information value": 0.01577246800235503,
+            "Level information value": 2.7942386780831584e-17,
+            "Trait count information value": 0.0038981074727702297,
+            "Unique": 2.5300525714389518e-17
+          },
+          "funTrain": -0.14523504462104195,
+          "funTest": -0.14500141124800803
+        },
+        "unfitted": {
+          "fun": 0.07869046101206728
+        }
+      }
+    }
+  },
+  {
+    "MAYC": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Mouth information value": 0.041637119426934835,
+            "Clothes information value": 0.03207906036300172,
+            "Eyes information value": 0.020442568034775593,
+            "Fur information value": 0.09241547267353212,
+            "Background information value": 0.3753984131992883,
+            "Hat information value": 0.012088983877514548,
+            "Earring information value": 0.01712707730455015,
+            "Name information value": 0.31152857348990465,
+            "Trait count information value": 0.00839122547465227,
+            "Unique": 0.0855408566869985
+          },
+          "funTrain": -0.27560964304277646,
+          "funTest": 0.04473382636272439
+        },
+        "unfitted": {
+          "fun": 0.03086017843264313
+        }
+      }
+    }
+  },
+  {
+    "BEANZ": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Headgear information value": 0.02315791295365284,
+            "Offhand information value": 0.03703491789248386,
+            "Clothing information value": 0.06286633461534562,
+            "Mouth information value": 0.14275956589826813,
+            "Eyes information value": 0.15418053397420967,
+            "Type information value": 0.3193562208052036,
+            "Background information value": 0.0754401425252782,
+            "Hand information value": 0.028274483005321337,
+            "Special information value": 0.11380582197866256,
+            "Shoe information value": 0.01194182028152203,
+            "Face information value": 0.015481203971505474,
+            "Eyebrows information value": 0.011052214246049468,
+            "Trait count information value": 8.591121764407302e-05,
+            "Unique": 0.004124389281093694
+          },
+          "funTrain": -0.21054535846119596,
+          "funTest": -0.08486995827251781
+        },
+        "unfitted": {
+          "fun": -0.044352781843307
+        }
+      }
+    }
+  },
+  {
+    "BATZ": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Hat information value": 0.10498842914059406,
+            "Eyes information value": 0.2208745385160091,
+            "Mouth information value": 0.1058154254169874,
+            "Body information value": 0.1321339437204568,
+            "Background information value": 0.09476327501389209,
+            "Chain information value": 0.03872791534971802,
+            "Earrings information value": 0.029836876235267394,
+            "Legendary information value": 0.11927669550346173,
+            "Shoes information value": 0.14300690257792276,
+            "Trait count information value": 0.005954199460850475,
+            "Unique": 0.004408467042624135
+          },
+          "funTrain": -0.3253775296373966,
+          "funTest": -0.15546586054488248
+        },
+        "unfitted": {
+          "fun": -0.10158860955911275
+        }
+      }
+    }
+  },
+  {
+    "dotdotdot": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Horn information value": 0.25312414969429764,
+            "Garmet information value": 0.08042266792929151,
+            "Mask information value": 0.2323050426922239,
+            "Background information value": 0.16000431552667746,
+            "Trait count information value": 0.1366616826054959,
+            "Unique": 0.1366616826054959
+          },
+          "funTrain": -0.3461826840581995,
+          "funTest": 0.17170903479821156
+        },
+        "unfitted": {
+          "fun": 0.16402576884185183
+        }
+      }
+    }
+  },
+  {
+    "PA": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Head information value": 0.12967716993765802,
+            "Zipper information value": 0.028769582070699986,
+            "Drawstring information value": 0.01817484337392548,
+            "Eyelets information value": 0.0020558275001189117,
+            "Hood information value": 0.030877280841620478,
+            "Sweatshirt information value": 0.0634986264716586,
+            "Neck information value": 0.0694142101894222,
+            "Element information value": 0.04628352929242528,
+            "Background information value": 0.0030699624304821394,
+            "Mask information value": 0.07008634603896756,
+            "Masked Head information value": 0.10209017539029669,
+            "Tie information value": 0.022424989907975864,
+            "Shirt information value": 0.06661679921183156,
+            "Lapels information value": 0.03494342415360505,
+            "Jacket information value": 0.022922013251518974,
+            "Pin information value": 0.03521052591769963,
+            "Clothing information value": 0.02317187906474874,
+            "Type information value": 0.017640066398732102,
+            "Trait count information value": 0.016173784831557125,
+            "Unique": 0.1623261790386537
+          },
+          "funTrain": -0.08971599414871044,
+          "funTest": -0.08648308674092176
+        },
+        "unfitted": {
+          "fun": -0.07246681698777632
+        }
+      }
+    }
+  },
+  {
+    "HERO": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Identity information value": 0.07179523649921861,
+            "Type information value": 0.0285189575699267,
+            "Hat information value": 0.009920922086592628,
+            "Face information value": 0.037546127891667135,
+            "Suit information value": 0.05093245570408472,
+            "Base information value": 0.020457153012257496,
+            "Back information value": 0.005753698009191944,
+            "Origin information value": 0.07303154183944781,
+            "Accessory information value": 0.00028463133496202647,
+            "Mask information value": 0.05913306799591308,
+            "Trait count information value": 4.431837442774718e-05,
+            "Unique": 0.6400542143320078
+          },
+          "funTrain": -0.2651617885117383,
+          "funTest": -0.34067386264301336
+        },
+        "unfitted": {
+          "fun": -0.2223196310173781
+        }
+      }
+    }
+  },
+  {
+    "TOADZ": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "# Traits information value": 0.01331551318646481,
+            "Accessory II information value": 0.0070017881098530105,
+            "Head information value": 0.012278667172529139,
+            "Body information value": 0.20128252761989937,
+            "Background information value": 0.36314527604315366,
+            "Eyes information value": 0.008707627732767113,
+            "Accessory I information value": 0.025451902149995296,
+            "Mouth information value": -6.224414306940191e-19,
+            "Clothes information value": 0.12643151219998708,
+            "Name information value": 0.0691157956652271,
+            "Custom information value": 0.1608377100134481,
+            "Trait count information value": 0.0015086577060766208,
+            "Unique": 0.007214084022912096
+          },
+          "funTrain": -0.5278275740308532,
+          "funTest": -0.30984267239101093
+        },
+        "unfitted": {
+          "fun": -0.1219540049973973
+        }
+      }
+    }
+  },
+  {
+    "DOGGY": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Gender information value": 7.903313188966339e-05,
+            "Background information value": 0.5266522975287097,
+            "Eyewear information value": 0.06469824271045875,
+            "Hats information value": 5.609463881438295e-18,
+            "Clothing information value": 0.03771021051459172,
+            "Mouth information value": 0.06704139391513095,
+            "Fur information value": 0.20709817102377548,
+            "Eyes information value": 0.06622104766614469,
+            "Earring information value": 0.029713457528595052,
+            "Trait count information value": 7.903313188955898e-05,
+            "Unique": 7.903313188959298e-05
+          },
+          "funTrain": -0.22326779547388617,
+          "funTest": -0.09670187856558836
+        },
+        "unfitted": {
+          "fun": -0.06637645988388698
+        }
+      }
+    }
+  },
+  {
+    "KONGZ VX": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Status information value": 2.125578804319054e-18,
+            "Level information value": 0.0031246151494630733,
+            "Legendary information value": 0.44149134922629485,
+            "Hat information value": 0.09497261759975438,
+            "Eyes information value": 0.049218516947073424,
+            "Body Accessory information value": 0.013657298449682925,
+            "Mouth information value": 0.01449624374715803,
+            "Head Accessory information value": 0.012985920284696976,
+            "Fur information value": 0.11371635767894021,
+            "Augmentation information value": 0.06712821700972962,
+            "Clothes information value": 0.08711916327121974,
+            "Trait count information value": 0.012263617977008643,
+            "Unique": 0.042489332825017025
+          },
+          "funTrain": -0.4895139274525118,
+          "funTest": -0.3204255164103243
+        },
+        "unfitted": {
+          "fun": -0.229616951542879
+        }
+      }
+    }
+  },
+  {
+    "RENGA": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Headwear information value": 0.009527963529386157,
+            "Eyes information value": 7.473270249883477e-17,
+            "Body information value": 1.2603462271038566e-16,
+            "Head information value": 0.021569267573279365,
+            "Background information value": 0.0013507205978352578,
+            "Archetype information value": 0.1255415503750963,
+            "Nature information value": -2.5233188597541522e-18,
+            "Special information value": 0.01162577284847909,
+            "Mask information value": 0.02728544691290677,
+            "Hood information value": 1.58496337640336e-18,
+            "Hands information value": 0.00386040872749233,
+            "Mouth information value": -4.807307412441948e-19,
+            "Nose information value": 0.0010549972571152373,
+            "Clothing information value": 0.008524411919037434,
+            "Hair information value": 5.911179394030981e-17,
+            "1/1 information value": 0.1203332556148329,
+            "Necklace information value": 0.014731336928440496,
+            "Helmet information value": 0.018807804179735477,
+            "Armour information value": 0.03235744720058007,
+            "Extra information value": 0.003945746578317138,
+            "Face information value": 0.011993134793808074,
+            "Earrings information value": -5.91278618032353e-17,
+            "Eyewear information value": 0.0017076033004212007,
+            "Third Eye information value": 0.09474871187778283,
+            "Patches information value": 6.144019034197748e-17,
+            "HUD information value": 2.4023069958318447e-17,
+            "Neck Plate information value": 0.01693465890068028,
+            "Visor information value": 0.02921424419332059,
+            "Orb information value": 0.00410276409790068,
+            "Armour Plug information value": 0.012753134927011278,
+            "Attachments information value": 0.011554052961746551,
+            "Beard information value": 0.02064010167065011,
+            "Crystals information value": -1.5284283137212853e-17,
+            "Manga information value": 0.08987162805933853,
+            "Rings information value": -8.616756426512479e-17,
+            "Invisible Ink information value": 0.08793906628153025,
+            "Trait count information value": 2.1878269071114737e-06,
+            "Unique": 0.19219645069628483
+          },
+          "funTrain": -0.20039750641525797,
+          "funTest": -0.3182203931416231
+        },
+        "unfitted": {
+          "fun": -0.023712919079990413
+        }
+      }
+    }
+  },
+  {
+    "ROBO": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Background Color information value": 0.0018792969119095712,
+            "Chassis Color information value": 0.04454484209774843,
+            "Top information value": 0.1371485166850988,
+            "Mouth information value": 0.053012243749085884,
+            "Ear information value": 0.07508037028794665,
+            "Eyes information value": 0.08557473316925326,
+            "Head Shape information value": 0.006887053252346623,
+            "Body information value": 0.04743824825641144,
+            "Arm information value": 0.01588620955425431,
+            "Backpack information value": 0.02445546556512253,
+            "Robot Type information value": 3.812193830886504e-17,
+            "Helmet information value": 0.1433045272345098,
+            "Cyborgo Face information value": 0.018825480691452536,
+            "Human Arm information value": 0.024644095816961684,
+            "Computo Head information value": 0.13109605281521014,
+            "Face information value": 0.06695669879524921,
+            "Trait count information value": 0.00016151118639424916,
+            "Unique": 0.12310465393104487
+          },
+          "funTrain": -0.49384472429921855,
+          "funTest": -0.3822269181921716
+        },
+        "unfitted": {
+          "fun": -0.34840919451016733
+        }
+      }
+    }
+  },
+  {
+    "GLXY": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Egg Type information value": 0.04061211106859391,
+            "Egg Interior information value": 0.0009016547712575359,
+            "Ground Element #2 information value": -3.187660735839805e-18,
+            "Ground Element #1 information value": 0.00926793172172159,
+            "Egg Overlay #1 information value": -1.3243046892213267e-17,
+            "Air Element #1 information value": 2.4602418340758392e-17,
+            "Sky Element information value": 0.0018702553600586829,
+            "Studio Material information value": 0.0030163693641689186,
+            "Material information value": -5.504102692325088e-19,
+            "Series information value": 0.9000687219489345,
+            "Egg Overlay #2 information value": 0.0008181819837386933,
+            "Air Element #2 information value": 6.243932636328509e-18,
+            "Title information value": 0.03838059608559963,
+            "Ground Element #3 information value": -6.558978560145622e-18,
+            "Trait count information value": 4.396007789089717e-05,
+            "Unique": 1.489576584608911e-18
+          },
+          "funTrain": -0.2758836859145334,
+          "funTest": -0.252255521318102
+        },
+        "unfitted": {
+          "fun": -0.21189742816674295
+        }
+      }
+    }
+  },
+  {
+    "DEADFELLAZ": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Grade Combo information value": 0.1244938792536097,
+            "Eyes Grade information value": 0.020821488927904367,
+            "Eyes information value": 0.08651984147645675,
+            "Nose Grade information value": 0.02628134620788204,
+            "Nose information value": 0.022655859601869492,
+            "Mouth Grade information value": 0.005063794521473718,
+            "Mouth information value": -6.586152500333778e-18,
+            "Head Grade information value": 0.007408549355263124,
+            "Head information value": 0.03418071670195925,
+            "Body Grade information value": 0.010531552169074268,
+            "Body information value": 0.5614315383897925,
+            "Background information value": 0.08327542392921163,
+            "Trait count information value": -3.2840825020206187e-19,
+            "Unique": 9.824388830123519e-20
+          },
+          "funTrain": -0.2714361994666456,
+          "funTest": -0.06380008026275964
+        },
+        "unfitted": {
+          "fun": -0.04909395680634729
+        }
+      }
+    }
+  },
+  {
+    "CRYPTOMORIES": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Background information value": 0.254757328396942,
+            "Pattern information value": 2.2806284956126337e-18,
+            "Skin information value": 0.05926876740114301,
+            "Clothes information value": 0.18718173315883838,
+            "Nose information value": 0.07471734072935611,
+            "Eyes information value": 0.11669920892766153,
+            "Hat information value": 0.08216289055867115,
+            "Type information value": 0.07580731984600174,
+            "Tattoo information value": 0.014278301999866794,
+            "Mouth information value": 0.02920216650890274,
+            "Skeleton information value": 0.018051070848133982,
+            "Goldchain information value": 0.04645403557796922,
+            "Trait count information value": 0.01916885609366719,
+            "Unique": 0.019168856093667204
+          },
+          "funTrain": -0.24404388611281758,
+          "funTest": -0.10116406176973264
+        },
+        "unfitted": {
+          "fun": -0.0903673043374034
+        }
+      }
+    }
+  },
+  {
+    "MICE": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "character information value": 0.18351986894103733,
+            "nose information value": -5.812378975671239e-19,
+            "mouth information value": 0.6176934389312774,
+            "eyes information value": 0.07237717612916386,
+            "earrings information value": 0.0069888337974023385,
+            "neck information value": 1.151617167089263e-19,
+            "whiskers information value": 0.012389221681052812,
+            "hat information value": 0.031107085382148215,
+            "burned information value": 0.07229526397050574,
+            "Trait count information value": 0.0010865900335302028,
+            "Unique": 0.0010865900335301948
+          },
+          "funTrain": -0.2526945431121747,
+          "funTest": -0.12795569539964047
+        },
+        "unfitted": {
+          "fun": -0.09580960000282764
+        }
+      }
+    }
+  },
+  {
+    "ODDITIES": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Outerwear information value": 0.0029207658788497704,
+            "Eyes information value": 1.3421847523751279e-18,
+            "Shoes information value": -1.0330715104041483e-17,
+            "Species information value": 0.013937299627591047,
+            "Attitude information value": 1.8021394220820947e-18,
+            "Body information value": 0.044236991535642756,
+            "Background information value": 0.007374522719088502,
+            "Head information value": 0.024284211749473993,
+            "Headwear information value": 0.002953762206809633,
+            "Eyewear information value": 0.0022927110883489542,
+            "Underfoot information value": 0.04117677180337981,
+            "Trait count information value": 7.846508250736655e-06,
+            "Unique": 0.8604528603608277
+          },
+          "funTrain": -0.16971980838711348,
+          "funTest": -0.017347578408751715
+        },
+        "unfitted": {
+          "fun": 0.005034649356764353
+        }
+      }
+    }
+  },
+  {
+    "GUTTER CAT GANG": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "hat information value": 0.03629655242137205,
+            "eyes information value": 0.19071047252432205,
+            "fur information value": 0.6012841800203648,
+            "background information value": 0.038152300950564766,
+            "necklace information value": 0.019244898284317465,
+            "earring information value": 0.027397408012071026,
+            "mouth information value": 0.028849439822076228,
+            "beard information value": 0.01399029343827366,
+            "shirt information value": 0.03890778450535896,
+            "Trait count information value": 0.002182898580350805,
+            "Unique": 0.0021828985803507978
+          },
+          "funTrain": -0.4310653295248365,
+          "funTest": -0.14514269163504692
+        },
+        "unfitted": {
+          "fun": -0.030255609961508896
+        }
+      }
+    }
+  },
+  {
+    "CryptoSkulls": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Beard Gene information value": 0.03655445541952351,
+            "Bones Gene information value": 0.009393386541586194,
+            "Teeth Gene information value": 0.12613342778941966,
+            "Nose Gene information value": 0.2501345179218161,
+            "Eyes Gene information value": 0.079103964094075,
+            "Hair Gene information value": 0.0007550175058308846,
+            "Skull Gene information value": 0.2454418462733552,
+            "Background ID information value": 0.22077015706023542,
+            "NAME information value": 0.0024734946951906625,
+            "UNIQUENESS INDEX information value": -1.3279330094355503e-16,
+            "null information value": 0.00805353556292999,
+            "Trait count information value": 0.00247349469517635,
+            "Unique": 0.0024734946951347507
+          },
+          "funTrain": -0.11489419733848562,
+          "funTest": -0.11428599524596912
+        },
+        "unfitted": {
+          "fun": -0.09957985804568593
+        }
+      }
+    }
+  },
+  {
+    "RUN": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Mouth Accessory information value": 0.02760190331380112,
+            "Eye Accessory information value": 0.012464308636577635,
+            "Head Below information value": 0.05571998477019293,
+            "Ear Accessory information value": -3.4668337469177348e-18,
+            "Eyes information value": 0.1404818419895823,
+            "Nose information value": 0.09565669602390268,
+            "Mouth information value": 0.12472719652158325,
+            "Face information value": 9.501268000425755e-19,
+            "Race information value": 0.11747335990642882,
+            "Background information value": 0.20589614625074026,
+            "Head Above information value": 0.08372293971450895,
+            "Face Accessory information value": 0.04988972892727584,
+            "Mask information value": 0.0829962090507083,
+            "Trait count information value": 0.0002857612108831914,
+            "Unique": 0.0002857612108831931
+          },
+          "funTrain": -0.2971581575993418,
+          "funTest": -0.452747425599267
+        },
+        "unfitted": {
+          "fun": -0.27191064900888345
+        }
+      }
+    }
+  },
+  {
+    "PHB": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Accessories information value": 0.1024649236945055,
+            "Glasses information value": 0.05044539419391986,
+            "Head information value": 0.08328095907461891,
+            "Bag information value": 0.11907452155127814,
+            "Necklace information value": 0.124396512939225,
+            "Clothes information value": 0.0813204649668712,
+            "Skin information value": 0.08076554855973823,
+            "Background information value": 0.10324855480749714,
+            "Trait count information value": 0.09223286611025565,
+            "Unique": 0.16277025410209045
+          },
+          "funTrain": -0.382783724708218,
+          "funTest": -0.26938833379288035
+        },
+        "unfitted": {
+          "fun": -0.2664193286756186
+        }
+      }
+    }
+  },
+  {
+    "WIZARDS": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "% Traits in Affinity information value": 6.021466304309799e-17,
+            "# Traits in Affinity information value": 0.07368238591710558,
+            "# Traits information value": 0.1932459446083585,
+            "Affinity information value": -2.8534783800616742e-18,
+            "prop information value": 0.0807482809650808,
+            "head information value": 0.3373786167332319,
+            "body information value": 0.04968224575177148,
+            "background information value": 0.10959572609584077,
+            "familiar information value": 0.03944384639598487,
+            "rune information value": 0.11419353332918197,
+            "Trait count information value": 0.0009671792549526592,
+            "Unique": -2.9456347907982855e-18
+          },
+          "funTrain": -0.4032440640620943,
+          "funTest": -0.22921078468153197
+        },
+        "unfitted": {
+          "fun": -0.1680086686026957
+        }
+      }
+    }
+  },
+  {
+    "KIWAMI": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Environment information value": 0.05347600556934821,
+            "Hand information value": 0.019190199392426114,
+            "Ear Accessory information value": 0.07465705112052402,
+            "Mouth Accessory information value": 0.045787976402406255,
+            "Hair information value": 0.11194345680048107,
+            "Eyewear information value": 0.020580506056953548,
+            "Brow information value": 0.015149268777556357,
+            "Eyes information value": 3.7533221889094153e-19,
+            "Mouth information value": -2.1902538537069187e-18,
+            "Clothing information value": 0.028508896378827996,
+            "Necklace information value": 0.06268951919640109,
+            "Face Attachment information value": 0.01105929912002673,
+            "Body Attachment information value": 0.053847603776069126,
+            "Markings information value": 0.021549761309349044,
+            "Body information value": 0.16034073848324268,
+            "Background information value": 0.026536697208948978,
+            "Mask information value": 0.2946830204074389,
+            "Trait count information value": 3.406058580872136e-20,
+            "Unique": -1.4758578762858748e-19
+          },
+          "funTrain": -0.32324071610905286,
+          "funTest": -0.5479358397761754
+        },
+        "unfitted": {
+          "fun": -0.4675163253630039
+        }
+      }
+    }
+  },
+  {
+    "CloneX": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Type information value": 0.054387621689283724,
+            "Jewelry information value": 0.004481342907153623,
+            "Clothing information value": 0.08278396962905157,
+            "Eye Color information value": 0.08855580452665157,
+            "DNA information value": 0.26510307858212817,
+            "Back information value": 0.05176327047495602,
+            "Hair information value": 0.11547329463717089,
+            "Mouth information value": 0.014144417233358702,
+            "Eyewear information value": 0.013560977092144691,
+            "Accessories information value": -9.486769009248164e-19,
+            "Facial Feature information value": 0.009960458605433712,
+            "Helmet information value": 0.2954068058953918,
+            "Trait count information value": 0.0002006028670959064,
+            "Unique": 8.489652784430138e-19
+          },
+          "funTrain": -0.4424397232930205,
+          "funTest": -0.08841247963232324
+        },
+        "unfitted": {
+          "fun": -0.011939228159651701
+        }
+      }
+    }
+  },
+  {
+    "SBSH": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Background information value": 0.09350760400033312,
+            "Headwear information value": 0.27752001558096073,
+            "Mouth information value": -1.1284945589090748e-17,
+            "Accessory information value": 0.24065987453271775,
+            "Eyes information value": 8.066020758884702e-18,
+            "Clothes information value": -1.1688125087156174e-17,
+            "Fur information value": 0.13504137361498003,
+            "Trait count information value": 0.11076892420791092,
+            "Unique": 0.11076892420791092
+          },
+          "funTrain": -0.11179878352664818,
+          "funTest": -0.026885479410243968
+        },
+        "unfitted": {
+          "fun": -0.02943834083934409
+        }
+      }
+    }
+  },
+  {
+    "NEOTI": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Credit Yield information value": 0.18920333114706678,
+            "Credits information value": 9.245697216309854e-18,
+            "Cool information value": 0.017823754328867212,
+            "Tech Skill information value": -1.0253448661759815e-18,
+            "Attractiveness information value": 0.08803000341261286,
+            "Intelligence information value": 0.01207362041290042,
+            "Strength information value": 6.701796065310454e-18,
+            "Eyes information value": 0.015684965976017637,
+            "Ability information value": 0.0773710947944479,
+            "Race information value": 0.03774652570594397,
+            "Gender information value": 0.2539504735401756,
+            "Class information value": 0.28914818872311426,
+            "Status information value": -2.326155833027977e-18,
+            "Trait count information value": 6.962475227936003e-18,
+            "Unique": 1.5991153326910003e-17
+          },
+          "funTrain": -0.6007090095713725,
+          "funTest": -0.4160892264768628
+        },
+        "unfitted": {
+          "fun": -0.38849603618842604
+        }
+      }
+    }
+  },
+  {
+    "WGAME": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Type information value": 1.5061314142824223e-17,
+            "Generation information value": 0.07484235957894622,
+            "Feet information value": 0.009084256759325587,
+            "Mouth information value": 3.181590171305453e-18,
+            "Nose information value": 0.007701550011090261,
+            "Eyes information value": 0.04609348573867866,
+            "Ears information value": 0.004887591219828021,
+            "Head information value": 0.07599175414745933,
+            "Fur information value": 0.0387388020021291,
+            "Alpha Score information value": 0.5247086938454872,
+            "Neck information value": -8.456947350310988e-18,
+            "Trait count information value": 0.01478852016127054,
+            "Unique": 0.014788520161270507
+          },
+          "funTrain": -0.7713884834360886,
+          "funTest": -0.685186088471534
+        },
+        "unfitted": {
+          "fun": -0.6528539027635196
+        }
+      }
+    }
+  },
+  {
+    "PETS": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Back information value": 2.8182806927203227e-13,
+            "Body information value": 1.7597606540008106e-13,
+            "Arms information value": 9.311931014202202e-14,
+            "Chest information value": -1.2991674605391576e-13,
+            "Face information value": -1.2070645094794178e-13,
+            "Hat information value": -7.216358865643557e-14,
+            "Element information value": -1.528815917925048e-13,
+            "Water information value": -1.304484888257777e-13,
+            "Grass information value": -1.0036439745613422e-14,
+            "Air information value": -1.1571122951964696e-14,
+            "Fire information value": -1.8248225905956586e-14,
+            "Stage information value": 0.03685594399121142,
+            "Trait count information value": 0.03795150522810869,
+            "Unique": 0.9147951318247353
+          },
+          "funTrain": -0.04186733312553141,
+          "funTest": -0.02541439693449408
+        },
+        "unfitted": {
+          "fun": 0.01509887834783138
+        }
+      }
+    }
+  },
+  {
+    "SAPS": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "extra information value": 0.09170668468916102,
+            "head information value": 0.22725454404311068,
+            "body information value": 0.32474111120874277,
+            "face information value": 0.06579379668694932,
+            "skin information value": 0.1627207972693962,
+            "background information value": -1.8015085729869562e-17,
+            "Hidden information value": 4.01110702371568e-17,
+            "Trait count information value": 0.07829821211185858,
+            "Unique": -3.88209108860431e-18
+          },
+          "funTrain": -0.4584754685644523,
+          "funTest": -0.031139155774414125
+        },
+        "unfitted": {
+          "fun": -0.03960900763274031
+        }
+      }
+    }
+  },
+  {
+    "3L": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Legendary information value": -1.2191368251130164e-16,
+            "Background information value": 0.05010925259988233,
+            "DNA Type information value": 0.05372397947628143,
+            "DNA information value": 0.07209200686211514,
+            "Body information value": 0.04060425365797696,
+            "Mouth information value": 0.0806923699018851,
+            "Head information value": 0.0698863368333297,
+            "Vision information value": 0.0790722191791651,
+            "Minimon information value": 0.02229081283789293,
+            "Accessory information value": 0.044391393690507035,
+            "Trait count information value": 0.0388660060719542,
+            "Unique": 0.4458539459933689
+          },
+          "funTrain": -0.2722607801958449,
+          "funTest": -0.0436406055058467
+        },
+        "unfitted": {
+          "fun": -0.030954977052804658
+        }
+      }
+    }
+  },
+  {
+    "MOONBIRD": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Beak information value": 0.003629572881274032,
+            "Background information value": 0.4864328480868966,
+            "Feathers information value": 0.20041459644272808,
+            "Body information value": 0.050717414012222496,
+            "Outerwear information value": 0.04642782592214894,
+            "Eyes information value": 0.04646526756272708,
+            "Headwear information value": 0.0466185436656855,
+            "Eyewear information value": 0.028518793344933645,
+            "Trait count information value": 0.001086948917873671,
+            "Unique": 0.0010869489178736685
+          },
+          "funTrain": -0.42316441100149776,
+          "funTest": -0.026401914280795594
+        },
+        "unfitted": {
+          "fun": -0.021578157152112774
+        }
+      }
+    }
+  },
+  {
+    "HM": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Background information value": 3.2111519231788687e-19,
+            "Glyph information value": 0.06237814075560089,
+            "Skin Color information value": 0.1958161080837052,
+            "Character information value": 0.12132707151598625,
+            "Item information value": 0.15223306152001279,
+            "Eye Color information value": 0.06322453872810979,
+            "Mask information value": 0.028597994154761143,
+            "Mask Subtype information value": 0.01090608720269418,
+            "Set information value": 0.267164288768603,
+            "Trait count information value": 0.04316547943161161,
+            "Unique": 0.044509332759729445
+          },
+          "funTrain": -0.27358767116205096,
+          "funTest": -0.3782562629185781
+        },
+        "unfitted": {
+          "fun": -0.312213895510615
+        }
+      }
+    }
+  },
+  {
+    "JFRK": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Head information value": 0.02143868449480076,
+            "Mouth information value": 0.060409313366225896,
+            "Eyes information value": 0.06163419420681696,
+            "Skin information value": 0.3143538174101643,
+            "Species information value": 3.47757366934841e-19,
+            "Background information value": 0.19725565175228554,
+            "Weapon information value": 0.01696477002270044,
+            "Clothing information value": 0.01773266577418454,
+            "Fur information value": 0.3090008222640613,
+            "Trait count information value": 4.9173253075021644e-05,
+            "Unique": 4.9173253075029586e-05
+          },
+          "funTrain": -0.2033361778456418,
+          "funTest": -0.35789096162301715
+        },
+        "unfitted": {
+          "fun": -0.23370068128646707
+        }
+      }
+    }
+  },
+  {
+    "CBC": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Chin information value": 0.06547668028383821,
+            "Eyes information value": 0.04927833236070487,
+            "Hat information value": 0.041567805815957225,
+            "Back information value": -4.141429539199877e-18,
+            "Layerz information value": 0.014113563647761694,
+            "Lol-Drip information value": 0.0038117944759149098,
+            "Base-Layer information value": 1.8344160978655987e-19,
+            "Sides information value": 0.15647299271889556,
+            "Nose information value": 0.07957401476010753,
+            "Smoking information value": 0.0473741938725515,
+            "Lips information value": 0.001410695618599188,
+            "Tattoos information value": 0.026334044275758407,
+            "Mouth information value": 0.01626843488294253,
+            "Body information value": 0.1911236061415095,
+            "Tail information value": 0.03146817348090673,
+            "Background information value": 0.014046128495257635,
+            "Trait count information value": 1.9983682071362362e-19,
+            "Unique": 0.259977132692174
+          },
+          "funTrain": -0.34374272857749183,
+          "funTest": -0.07363538745957904
+        },
+        "unfitted": {
+          "fun": -0.030132893802957583
+        }
+      }
+    }
+  },
+  {
+    "RONIN": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Type information value": 0.23465850138903505,
+            "Hair information value": 0.02687148734389353,
+            "Weapon information value": 0.0744415111686427,
+            "Outfit information value": 0.1577877281326572,
+            "Mouth information value": 0.08224283785223713,
+            "Eyes information value": 0.12995597902011954,
+            "Background information value": 0.05210625092515278,
+            "Skin information value": 0.13250073454629036,
+            "Headgear information value": 0.014059757366288676,
+            "Trait count information value": 0.0476876061278415,
+            "Unique": 0.04768760612784149
+          },
+          "funTrain": -0.1323656061898543,
+          "funTest": -0.6670908839558144
+        },
+        "unfitted": {
+          "fun": -0.4674191887181935
+        }
+      }
+    }
+  },
+  {
+    "INVSBLE": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Background information value": 3.7947076036992655e-19,
+            "Left Arm information value": 0.02489482549753833,
+            "Right Arm information value": 0.03809351902015963,
+            "Eyes information value": 0.03798179585081557,
+            "Hat information value": 0.01741396380194693,
+            "Sleeves information value": 0.0011797531144403072,
+            "Upper Body information value": 0.08070031948443136,
+            "Legs information value": 0.02230949589874094,
+            "Feet information value": 0.00928840477671898,
+            "Mouth information value": 0.010333901822227928,
+            "Bag information value": 0.015755153217063358,
+            "Nose information value": 0.023855829147348184,
+            "Outerwear information value": 0.02745437458535472,
+            "Shoe Gum information value": 0.023413174944800903,
+            "Fannypack information value": 0.016438673451832416,
+            "Neck information value": 0.015231215278268711,
+            "Suspenders information value": 0.05487710234287796,
+            "Ears information value": 0.009976657105700662,
+            "Overhead information value": 0.043876104420701494,
+            "Special information value": 0.12626572722348464,
+            "Trait count information value": 0.002402810414933706,
+            "Unique": 0.36603069522181125
+          },
+          "funTrain": -0.45968157912129953,
+          "funTest": 0.01972065725296205
+        },
+        "unfitted": {
+          "fun": 0.01795197402511898
+        }
+      }
+    }
+  },
+  {
+    "NEOTOI": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Allocation information value": 0.09025193383274077,
+            "Cool information value": 0.025347006081887054,
+            "Tech Skill information value": -5.228048809455509e-18,
+            "Expression information value": 0.006600812647662802,
+            "Attractiveness information value": 1.0516443085549407e-17,
+            "Strength information value": -3.60380909873591e-18,
+            "Eyes information value": 8.945288814840375e-19,
+            "Ability information value": 0.023520853438901344,
+            "Nose information value": 0.018437335540315916,
+            "Hair information value": 0.04915784438080741,
+            "Race information value": 0.08870660709664283,
+            "Class information value": 0.6615407889693786,
+            "Status information value": 0.0005528009231791801,
+            "Trait count information value": 0.0005528009231791842,
+            "Unique": 0.0005528009231791794
+          },
+          "funTrain": -0.3806485135275724,
+          "funTest": -0.6536708802241242
+        },
+        "unfitted": {
+          "fun": -0.5873429844165731
+        }
+      }
+    }
+  },
+  {
+    "VOX": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Hat Color information value": 2.3779436249808696e-17,
+            "Glasses Frame Color information value": -7.799231396633168e-18,
+            "Overall Color information value": 0.003585307322983427,
+            "Shirt Color information value": 0.014066428469789416,
+            "Boot Color information value": 0.001389186790808199,
+            "Pupil Color information value": 0.0005587307840883588,
+            "Hair Color information value": 0.005659768585556962,
+            "Hat information value": 0.008915361085991884,
+            "Facial Hair information value": -2.694896138048491e-17,
+            "Glasses information value": 0.004199309474275824,
+            "Held Item information value": 0.0006128714315515428,
+            "Hair Style information value": 0.009858883410474934,
+            "Outfit information value": 0.02699006983774562,
+            "Gender information value": -5.787827677160632e-18,
+            "Class information value": 0.08353152895124646,
+            "Zipper Color information value": 3.638140944084363e-18,
+            "Helmet Glass Color information value": 0.005917654797778448,
+            "Glove Color information value": 6.117303598134936e-18,
+            "Suit Color information value": 0.07757160937797389,
+            "Pant Color information value": 0.00516877739870159,
+            "Shoe Color information value": 6.529635649027768e-20,
+            "Belt Buckle Color information value": -5.711578511227241e-18,
+            "Bandana Color information value": 0.0016203247538425951,
+            "Belt Color information value": 0.005869392347795235,
+            "Tie Color information value": 0.011468069734286273,
+            "Life Buoy Color information value": 0.006222093395279786,
+            "Robe Color information value": 0.008034442313286984,
+            "Lifejacket Color information value": 0.005174581366943586,
+            "Miscellaneous information value": 0.01226570239337342,
+            "Jumpsuit Color information value": -4.190774317578324e-18,
+            "Foot Color information value": 0.057837994980450176,
+            "Vest Color information value": 0.006859382516947781,
+            "Apron Color information value": 2.439454888092385e-19,
+            "Special information value": 0.11148863945183446,
+            "Shirt Collar Color information value": 0.00210950019311659,
+            "Undershirt Color information value": 0.006196654304224231,
+            "String Color information value": -4.719469682284086e-18,
+            "Jacket Color information value": 0.010545864418429562,
+            "Spatula Color information value": 0.014741228866340324,
+            "Dress Color information value": 0.0019935556906919482,
+            "Frame Color information value": 0.00895734275190824,
+            "Pants Color information value": 0.0017302018861487269,
+            "Lab Coat Color information value": 0.04007089836022436,
+            "Fuel Rod Color information value": 7.502192486406364e-18,
+            "Gloves and Boots Color information value": -2.3300842676474066e-18,
+            "Fish 1 Color information value": 0.002790883864334141,
+            "Skirt Color information value": 0.008526319426935358,
+            "Gloves and Foot Color information value": 0.004628959535597711,
+            "Horn Color information value": 0.01802951901259438,
+            "Hoof Color information value": 0.02745089915074879,
+            "Coat Color information value": -2.0963824329087736e-18,
+            "Breed information value": 0.023024725542834627,
+            "Overalls Color information value": 0.0015205953949668672,
+            "Shirt Accent Color information value": 6.549515754691772e-18,
+            "Badge Accent 1 Color information value": 0.02829958678907751,
+            "Suspender Color information value": 3.303451158462326e-18,
+            "Wool Color information value": 0.02687082022505323,
+            "Eye Patch Color information value": 0.00272899830392554,
+            "Feather Color information value": 0.008227842049565157,
+            "Comb and Wattle Color information value": 6.057979638762756e-18,
+            "Water Tank Color information value": 4.096548529746424e-18,
+            "Track Color information value": 0.07126207357615617,
+            "Body Color information value": 8.673617379884035e-18,
+            "Shirt and Pant Color information value": 0.005143394872695726,
+            "Sleeve Color information value": 0.08014799349833601,
+            "Wheel Color information value": 0.05792718181179101,
+            "Skin Color information value": 0.0200225618193821,
+            "Trait count information value": 0.00020540317122479413,
+            "Unique": 0.04818967765038129
+          },
+          "funTrain": -0.6190161435240376,
+          "funTest": -0.3011116655160142
+        },
+        "unfitted": {
+          "fun": -0.17288685118373837
+        }
+      }
+    }
+  },
+  {
+    "FLUF": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Dance information value": 0.22979473927407545,
+            "Music information value": 0.04055236569249395,
+            "Background information value": 0.032295891391118554,
+            "Expression information value": 0.027819381868940923,
+            "Ears information value": 0.02817860366864782,
+            "Nose information value": 0.024086368021930354,
+            "Mouth information value": 0.02967252932148643,
+            "Head information value": 0.033572494897823386,
+            "Neck information value": 0.02524456601361869,
+            "Top information value": -4.1241719361047255e-18,
+            "Eyewear information value": 0.04051457188626373,
+            "Eyes information value": 0.10986973006726608,
+            "Fur information value": 0.34751638384451916,
+            "Sex information value": 0.025462357098647408,
+            "Trait count information value": 1.4009924947586128e-18,
+            "Unique": 0.005420016953168137
+          },
+          "funTrain": -0.2888977954583974,
+          "funTest": -0.051805589192881536
+        },
+        "unfitted": {
+          "fun": -0.05778256824376579
+        }
+      }
+    }
+  },
+  {
+    "MUTCATS": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Legendary information value": 0.2628909456139275,
+            "Accessories information value": 0.0029820639803793824,
+            "Clothing information value": 0.011957557374322074,
+            "Type information value": 0.1366192255079937,
+            "Background information value": 0.12008944165773576,
+            "Headwear information value": 0.042328042027157606,
+            "Pets information value": 0.10220542127642791,
+            "Aura information value": 2.9413577060178975e-18,
+            "Royal information value": 0.2869667008372084,
+            "Trait count information value": 0.0019191248252682942,
+            "Unique": 0.02524782625638142
+          },
+          "funTrain": -0.4286540554840279,
+          "funTest": -0.2831397946458999
+        },
+        "unfitted": {
+          "fun": -0.21828608423777474
+        }
+      }
+    }
+  },
+  {
+    "BAYC": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Eyes information value": 0.11501919615042545,
+            "Mouth information value": 0.1281752424059181,
+            "Clothes information value": 0.02695926993202676,
+            "Fur information value": 0.2684539825903802,
+            "Background information value": 0.382933189474695,
+            "Earring information value": 0.03206839612034546,
+            "Hat information value": 0.039888750644391666,
+            "Trait count information value": 0.003043735613776472,
+            "Unique": 0.00304373561377648
+          },
+          "funTrain": -0.2612313445365257,
+          "funTest": -0.0193357951579632
+        },
+        "unfitted": {
+          "fun": -0.012114894995058077
+        }
+      }
+    }
+  },
+  {
+    "PAP": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Mouth Props information value": 0.033398208891248456,
+            "Hat information value": 0.022798406480774094,
+            "Teeth information value": 0.012399736714042136,
+            "Skin information value": 0.04194980254732084,
+            "Eyes information value": 0.05230824766159948,
+            "Emotion information value": 0.38336621787562225,
+            "Clothing information value": 0.01020222856586916,
+            "Glasses information value": 0.01916339875048315,
+            "Necklace information value": 0.010200985667600422,
+            "Accessories information value": 0.012534028247185932,
+            "Nose information value": 0.00879388735394512,
+            "Jacket information value": 0.034068493127126745,
+            "Earrings information value": 0.027985952904176974,
+            "Legendary information value": 0.2585056845387545,
+            "Trait count information value": 0.002075091153668456,
+            "Unique": 0.06616674068647989
+          },
+          "funTrain": -0.19240992080652675,
+          "funTest": -0.2506236739514644
+        },
+        "unfitted": {
+          "fun": -0.21993473222309093
+        }
+      }
+    }
+  },
+  {
+    "MPH": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "S-Karrots information value": 1.2209819661270765e-17,
+            "Top information value": 0.45063815509309313,
+            "Item information value": 0.013120933604065986,
+            "Shirt information value": -3.0240362631536084e-18,
+            "Face information value": 0.153284279504721,
+            "Fur information value": 0.2988591464407798,
+            "Faction information value": 0.016297661677316153,
+            "Trait count information value": 0.05903645013839449,
+            "Unique": -1.754833137545982e-18
+          },
+          "funTrain": -0.13331569929828785,
+          "funTest": -0.10707531187151173
+        },
+        "unfitted": {
+          "fun": -0.04844951441045949
+        }
+      }
+    }
+  },
+  {
+    "Captainz": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Stage information value": 6.765421556309548e-17,
+            "Type information value": 0.4423785463546987,
+            "Trait count information value": 0.25,
+            "Unique": 0.25
+          },
+          "funTrain": -0.04929920677594608,
+          "funTest": -0.14094665477371382
+        },
+        "unfitted": {
+          "fun": -0.09339743821797085
+        }
+      }
+    }
+  },
+  {
+    "Potatoz": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Pose information value": 0.034592600860240186,
+            "Size information value": 0.007890266555140826,
+            "Stage information value": 0.005248614223624566,
+            "Type information value": 0.7043866211055891,
+            "Mutation information value": 0.008604598276523314,
+            "Element information value": -9.423273139574776e-19,
+            "Trait count information value": 0.09784077034755248,
+            "Unique": 0.09784077034755248
+          },
+          "funTrain": -0.34698371684567586,
+          "funTest": -0.03329595065478513
+        },
+        "unfitted": {
+          "fun": -0.0435727473459849
+        }
+      }
+    }
+  },
+  {
+    "GOBLIN": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "stankfinder information value": 0.10894186773198053,
+            "MUNCHYHOLE information value": 0.11599207294057318,
+            "Eye on dat side information value": 0.1690769801518786,
+            "Eyz on dis side information value": 0.11468031481178878,
+            "Hedz information value": 0.12390781533071188,
+            "Eers information value": 0.1125499591378309,
+            "Boddee information value": 0.05747831677734459,
+            "collrzes information value": 0.01671294078268927,
+            "1 of 1 information value": 0.010353418971259786,
+            "djeimebdie information value": 0.017799422923278248,
+            "Trait count information value": 0.08263396058509404,
+            "Unique": 0.0637868213270282
+          },
+          "funTrain": -0.21395239184322584,
+          "funTest": -0.06917736079300477
+        },
+        "unfitted": {
+          "fun": -0.06581781500702641
+        }
+      }
+    }
+  },
+  {
+    "POETS": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Named information value": 0.025231547091898177,
+            "Lexicon information value": 1.2589521440957287e-16,
+            "Words information value": 7.535744009796984e-17,
+            "Rewrites information value": 0.009781156393024753,
+            "Origin information value": 0.35995925001424794,
+            "Class information value": 0.4335434307338444,
+            "Word information value": -1.3579030550245547e-16,
+            "Ego information value": 0.0396029179008929,
+            "Age information value": 0.08132344634034532,
+            "Polarity information value": 6.3604770448545785e-18,
+            "Breed information value": 0.010304040980852958,
+            "Genre information value": 0.04025421054489331,
+            "Latent information value": -2.7206573933267164e-17,
+            "Trait count information value": 1.0692943926138287e-17,
+            "Unique": -5.212618940983943e-17
+          },
+          "funTrain": -0.36791658425012125,
+          "funTest": -0.4906873071358507
+        },
+        "unfitted": {
+          "fun": -0.32868377909580415
+        }
+      }
+    }
+  },
+  {
+    "0N1": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Spirit information value": 0.028072899023663177,
+            "Strength information value": 0.029518499775396674,
+            "Style information value": 0.04126522545047402,
+            "Extra information value": 0.06866931550806153,
+            "Head information value": 0.04786723130489319,
+            "Face information value": 0.07964007916807143,
+            "Hair information value": 0.08805843574298589,
+            "Wear information value": 0.07295286049176714,
+            "Mouth information value": 0.013030570629165272,
+            "Eyes information value": 0.036484836923516006,
+            "Body information value": 0.054205562969567925,
+            "Background information value": 0.1131800788989897,
+            "Type information value": 0.16975840500436812,
+            "Domain information value": 0.009696300028684619,
+            "Helmet information value": 0.009696300028684626,
+            "Trait count information value": 0.057231936477637246,
+            "Unique": 0.03676908858418818
+          },
+          "funTrain": -0.4135389901246073,
+          "funTest": 0.013251007127175526
+        },
+        "unfitted": {
+          "fun": 0.015285904401456711
+        }
+      }
+    }
+  },
+  {
+    "CAPSULE": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Animated information value": 0.0005040646488657413,
+            "Additional Backgrounds information value": 2.2281739459650093e-17,
+            "Display Mode information value": 0.0030176161761531406,
+            "Portrait Background information value": 8.506825624620308e-19,
+            "Purity information value": 0.11945025029364219,
+            "Chroma information value": 0.024913977701680416,
+            "Generation information value": 0.008584261601654706,
+            "Variant information value": 0.24713195199411755,
+            "Species information value": 0.22302791417879805,
+            "Decorative information value": 0.0222614342591077,
+            "Mouth information value": 0.023369375851675714,
+            "Face information value": 0.02117686799604528,
+            "Device information value": 0.02148066633783826,
+            "Element information value": 0.01567448833736961,
+            "Dimension information value": 0.02447239678233886,
+            "Oni information value": 0.02259363671363148,
+            "Horn information value": 0.019193578042455767,
+            "Weapon information value": 0.017179032836661924,
+            "Eyewear information value": 0.02306502736306398,
+            "Zodiac information value": 0.018836649956145174,
+            "Emote information value": 0.023683377116095347,
+            "Gem information value": 0.02517554292158743,
+            "Mythic information value": 0.09520788889107167,
+            "Trait count information value": -1.90370654895404e-19,
+            "Unique": 4.207424407248923e-18
+          },
+          "funTrain": -0.43039592585901165,
+          "funTest": -0.34134223998826185
+        },
+        "unfitted": {
+          "fun": -0.11474873530399819
+        }
+      }
+    }
+  },
+  {
+    "LOA": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Skin Tone information value": -2.063428688679946e-17,
+            "Outfit information value": 0.26249528810250555,
+            "Nose information value": 0.0005653848950722855,
+            "Mouth information value": 1.9434530650600958e-17,
+            "Hand information value": 0.024737853613504647,
+            "Hair Front information value": 0.48206340772129175,
+            "Hair Color information value": 0.0011965091188805253,
+            "Hair Back information value": 3.504576313640082e-18,
+            "Eyes information value": 2.3211404680129034e-18,
+            "Eyebrows information value": 0.0005653848950723753,
+            "Eye Color information value": 4.5952504488639045e-18,
+            "Clip Accessory information value": 0.02069544766177134,
+            "Background information value": 0.07209404760928877,
+            "Weapon information value": -5.166498561076182e-18,
+            "Head Accessory information value": 3.2555032764239658e-18,
+            "Face Accessory information value": 2.4619876095071894e-17,
+            "Appendage information value": 0.030886550360449024,
+            "Skin Marking information value": 0.012684958785224052,
+            "Ears information value": 0.04924338198105467,
+            "Legendary information value": 0.0005653848950724009,
+            "Trait count information value": 0.000565384895072354,
+            "Unique": 0.0005653848950724303
+          },
+          "funTrain": -0.07290938012193961,
+          "funTest": -0.10098537567976291
+        },
+        "unfitted": {
+          "fun": -0.0759759616190071
+        }
+      }
+    }
+  },
+  {
+    "LIL": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Background information value": 0.13977858126070097,
+            "Back information value": 0.024398838504362752,
+            "Skin information value": 0.020944520888970756,
+            "Clothes information value": 0.05587175573007559,
+            "Helmet information value": 0.11348398789934011,
+            "Hair information value": -4.910316681803169e-18,
+            "Nose information value": 0.017897679369742642,
+            "Mouth information value": 0.1226635526198365,
+            "Ears information value": 0.16063869159562902,
+            "Eyes information value": 0.0719331964843352,
+            "Hat information value": 0.08722739117315359,
+            "Legendary information value": 0.016636697793135355,
+            "Charity information value": 0.052100934572960875,
+            "Trait count information value": 0.052100934572960875,
+            "Unique": 0.042740729878278365
+          },
+          "funTrain": -0.13113164452914464,
+          "funTest": -0.3772792150084575
+        },
+        "unfitted": {
+          "fun": -0.37706206122655794
+        }
+      }
+    }
+  },
+  {
+    "PPG": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Head information value": 0.3129648792702242,
+            "Face information value": 0.0721834260290911,
+            "Body information value": 0.26110840554721343,
+            "Skin information value": 0.05243407979199508,
+            "Background information value": 0.015977497416604012,
+            "Trait count information value": 0.07718669522088907,
+            "Unique": 0.20814501672398322
+          },
+          "funTrain": -0.28515988136295894,
+          "funTest": 0.005247275985776406
+        },
+        "unfitted": {
+          "fun": -0.008643656975344806
+        }
+      }
+    }
+  },
+  {
+    "SD": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Eyes information value": 0.1180208861972159,
+            "Mouth information value": 0.17335146198696183,
+            "Hat information value": 0.18632536382130144,
+            "Clothes information value": 0.19697219882718553,
+            "Skin information value": 0.09267537996214548,
+            "Background information value": 0.10990336652940248,
+            "Trait count information value": 0.12275134267578736,
+            "Unique": 1.696832464715403e-18
+          },
+          "funTrain": -0.41160914913739377,
+          "funTest": -0.1590286016945523
+        },
+        "unfitted": {
+          "fun": -0.1482142458919673
+        }
+      }
+    }
+  },
+  {
+    "KARAFURU": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Legendary information value": 0.09968147923849287,
+            "Base information value": 0.09253062450430785,
+            "Companion information value": 0.05580824376716526,
+            "Mouth information value": 0.17070450653975533,
+            "Headgear information value": 0.19182258474514904,
+            "Eyes information value": 0.03959238249405937,
+            "Outfit information value": 0.1587996575038085,
+            "Skin information value": 0.00831131466641119,
+            "Background information value": 0.057342414279539365,
+            "Trait count information value": 0.05484041744658837,
+            "Unique": 0.06691301083315708
+          },
+          "funTrain": -0.36777561646594675,
+          "funTest": -0.17034638677024844
+        },
+        "unfitted": {
+          "fun": -0.15829535640324827
+        }
+      }
+    }
+  },
+  {
+    "DAW": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "MOUTH information value": 0.06389401993714068,
+            "HAIR information value": 0.1384507961917119,
+            "CLOTHING information value": 0.113346560099692,
+            "EYES information value": 0.10312806589793436,
+            "FUR information value": 0.11390982236266801,
+            "BACKGROUND information value": 0.18515255462695265,
+            "NAME information value": 0.1629173611450749,
+            "PIERCINGS information value": 0.010945318239416876,
+            "NECKLACE information value": 0.019853936883936257,
+            "HANDBAGS information value": 0.07214961140936367,
+            "Trait count information value": 0.006363416606139149,
+            "Unique": 1.5407439555097887e-33
+          },
+          "funTrain": -0.40127955911667357,
+          "funTest": -0.10778228378848029
+        },
+        "unfitted": {
+          "fun": -0.10507761809210904
+        }
+      }
+    }
+  },
+  {
+    "TOONZ": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Head Accessories information value": 0.019452538683776277,
+            "Eyes information value": 0.059130649309063185,
+            "Mouth information value": 0.03497356011641595,
+            "Piercings information value": 0.020942951263437544,
+            "Bag information value": 0.025108804388838786,
+            "Chain information value": 0.031525406860777025,
+            "Clothing information value": 0.20125451647758996,
+            "Tattoos information value": 0.03994218920470816,
+            "Base information value": 0.19926031177630174,
+            "Background information value": 0.1216020738251049,
+            "Robot information value": 0.11911382668771117,
+            "Paws information value": 0.10440500197524316,
+            "Trait count information value": 2.2768607608338964e-06,
+            "Unique": 0.02303148629837511
+          },
+          "funTrain": -0.44951384000487665,
+          "funTest": -0.11679602351864211
+        },
+        "unfitted": {
+          "fun": -0.09298208954762612
+        }
+      }
+    }
+  },
+  {
+    "CREATURE": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Foreground information value": -3.831971135636779e-17,
+            "Mouth information value": 0.014033171010547478,
+            "Eyes information value": 0.09038647423712626,
+            "Outfit information value": 0.10389513702528506,
+            "Decoration information value": 1.6867061963119617e-17,
+            "Creature information value": 0.19933671087498409,
+            "Background information value": 0.04178229203347984,
+            "Overlay information value": 0.010415352054300228,
+            "Trait count information value": 0.0013232733737606219,
+            "Unique": 0.5215946922779435
+          },
+          "funTrain": -0.25241568564977007,
+          "funTest": -0.08345886262834115
+        },
+        "unfitted": {
+          "fun": -0.04909606740744464
+        }
+      }
+    }
+  },
+  {
+    "DOODLE": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "head information value": 0.2879932986275764,
+            "background information value": 0.10108004079786016,
+            "body information value": 0.22552522460263572,
+            "hair information value": 0.21854019312147857,
+            "face information value": 0.13506702209866095,
+            "piercing information value": 0.004691202818986017,
+            "Trait count information value": 0.005819471214788048,
+            "Unique": 1.826126631603746e-17
+          },
+          "funTrain": -0.6431864202873576,
+          "funTest": -0.0673823430040978
+        },
+        "unfitted": {
+          "fun": -0.029820200360816448
+        }
+      }
+    }
+  },
+  {
+    "COOLMAN": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Baby information value": 0.016937292089749614,
+            "Hat information value": 7.138057406985934e-20,
+            "Accessories information value": -3.03726080903495e-19,
+            "Clothes information value": 0.07380903918230917,
+            "Eyes information value": 0.04819211431713776,
+            "Mouth information value": 0.10937407729952471,
+            "Body information value": 0.17226980085457752,
+            "Background information value": 0.0707969535315991,
+            "World information value": 0.11594748002501117,
+            "Line information value": 0.07524520484885502,
+            "Trait count information value": 0.002735300330140336,
+            "Unique": 0.3146927375210956
+          },
+          "funTrain": -0.35348893666633674,
+          "funTest": -0.19358547172649454
+        },
+        "unfitted": {
+          "fun": -0.148840934306959
+        }
+      }
+    }
+  },
+  {
+    "CBS": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Hat information value": 0.028711215158444228,
+            "Clothing information value": 0.11339505386580782,
+            "Horns information value": 0.08200020340799345,
+            "Fur information value": 0.14025697619386188,
+            "Eyes information value": 0.055485767699405435,
+            "Nose information value": 0.02387431106990932,
+            "Teeth information value": 0.019678677427384262,
+            "Neck information value": 0.09376617183913083,
+            "Earring information value": 0.05736425627210818,
+            "Smoking information value": 0.05963361305502323,
+            "Property information value": 0.27890507075477416,
+            "Trait count information value": 0.007265564960380439,
+            "Unique": 0.007265564960380439
+          },
+          "funTrain": -0.19073857448563414,
+          "funTest": -0.20951449031019795
+        },
+        "unfitted": {
+          "fun": -0.15311878484728578
+        }
+      }
+    }
+  },
+  {
+    "ALIENFRENS": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Hats information value": 0.3290503718056448,
+            "Mouth information value": 0.10755009325087714,
+            "Eyes information value": 0.09013415191281912,
+            "Clothes information value": 0.11648113558742552,
+            "Body information value": 0.19778873060249821,
+            "Background information value": 0.046664352218600574,
+            "1 of 1 information value": 0.0828571499820567,
+            "Trait count information value": 0.0045265779022175216,
+            "Unique": 0.024947436737860436
+          },
+          "funTrain": -0.49124643544233665,
+          "funTest": -0.21462970117571045
+        },
+        "unfitted": {
+          "fun": -0.186233894482969
+        }
+      }
+    }
+  },
+  {
+    "COOL": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "tier information value": 0.19581872521298146,
+            "face information value": 0.3118395487352322,
+            "shirt information value": 0.05961558197775392,
+            "hats information value": 0.09819570615184373,
+            "body information value": 0.14285714285714285,
+            "Trait count information value": 0.14285714285714285,
+            "Unique": 5.5929695380744545e-18
+          },
+          "funTrain": -0.5498650768305504,
+          "funTest": -0.030936178143858607
+        },
+        "unfitted": {
+          "fun": -0.025025834441555084
+        }
+      }
+    }
+  },
+  {
+    "WOWG": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Lips Color information value": 0.012722997138865271,
+            "Mouth information value": 0.03673517815055477,
+            "Earrings information value": 0.053671677738578,
+            "Clothes information value": 0.13100397198025696,
+            "Hairstyle information value": 0.045700085539924475,
+            "Implants information value": 1.5453262753437054e-19,
+            "Facial Features information value": 0.020657633814231444,
+            "Eyes information value": 0.03376787812268963,
+            "Skin Tone information value": 0.5218078898313208,
+            "Background information value": 2.57172792139374e-19,
+            "Necklace information value": 0.007992065750489623,
+            "Face Accessories information value": 0.009901449678570033,
+            "Champion information value": 0.10491846403654267,
+            "Guardian information value": 9.847795282179493e-19,
+            "Trait count information value": 6.519968342970389e-06,
+            "Unique": 2.774253267983704e-19
+          },
+          "funTrain": -0.3538526221000519,
+          "funTest": -0.11566457539611678
+        },
+        "unfitted": {
+          "fun": -0.04911744695659265
+        }
+      }
+    }
+  },
+  {
+    "NP": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Theme information value": 0.19680927724241504,
+            "Asset information value": 0.029797879144332018,
+            "Rarity information value": 0.31614371452577733,
+            "Trait count information value": 0.19680927724241504,
+            "Unique": 0.2604398518450606
+          },
+          "funTrain": -0.1358111066258937,
+          "funTest": -0.03335453439043084
+        },
+        "unfitted": {
+          "fun": -0.030304902581326808
+        }
+      }
+    }
+  },
+  {
+    "KGF": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Hair information value": 0.12347841518183628,
+            "Eyewear information value": 0.006739624754406274,
+            "Eyes information value": 0.011630920755667441,
+            "Clothes information value": 0.11590504850724768,
+            "Background information value": 0.04060437918771718,
+            "Weapon information value": 0.03624605223589856,
+            "Skin information value": 0.0349440490246624,
+            "Mouth information value": 0.020576642141398673,
+            "Hat information value": 0.01845543169573618,
+            "KILLER GF information value": 0.4471586971319946,
+            "Trait count information value": 6.171727034317553e-07,
+            "Unique": 0.07782127916336294
+          },
+          "funTrain": -0.19045130854610318,
+          "funTest": -0.13801447486470328
+        },
+        "unfitted": {
+          "fun": -0.08511281445713265
+        }
+      }
+    }
+  },
+  {
+    "MEEBITS": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Shoes information value": 0.07918465013951269,
+            "Pants Color information value": -1.6899850406022716e-18,
+            "Pants information value": 0.14033531216952094,
+            "Overshirt Color information value": 0.05731250755700536,
+            "Overshirt information value": 6.2261590423121825e-18,
+            "Shirt information value": 0.10147325329087209,
+            "Hat Color information value": 0.00800444963142281,
+            "Hat information value": 3.538024631469756e-18,
+            "Hair Style information value": 0.012776004570258537,
+            "Type information value": 0.3367339314130501,
+            "Shoes Color information value": 0.08494133903222663,
+            "Shirt Color information value": 0.015283075787281492,
+            "Beard Color information value": 3.732623053351734e-18,
+            "Beard information value": 0.04845009581067611,
+            "Hair Color information value": 0.02936216948922702,
+            "Glasses information value": 0.039127675795988894,
+            "Jersey Number information value": 6.335095558023364e-17,
+            "Glasses Color information value": 5.630192168947556e-18,
+            "Necklace information value": 0.00672013919096492,
+            "Earring information value": 0.030293227297361967,
+            "Tattoo Motif information value": 0.005612925572134825,
+            "Trait count information value": 1.0109887091570261e-05,
+            "Unique": -2.309198232711411e-19
+          },
+          "funTrain": -0.2587886420950415,
+          "funTest": -0.16957437442467746
+        },
+        "unfitted": {
+          "fun": -0.07222835920561022
+        }
+      }
+    }
+  },
+  {
+    "MURI": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Hand information value": 0.00702617189725872,
+            "Hat information value": 0.00528213606520863,
+            "Fit information value": -5.142617011014089e-19,
+            "Mouth information value": 0.025954537935597446,
+            "Eyes information value": 0.07182192870790381,
+            "Skin information value": 0.016371907007430755,
+            "Hair information value": 0.04374948674307742,
+            "Background information value": 0.0022904296960803102,
+            "FX information value": 0.014338975271178741,
+            "Face Accessory information value": 0.004187909920932895,
+            "Hand Back information value": 0.00896290673366732,
+            "Hand Open L Attr information value": 0.009749489498544841,
+            "Head Accessory information value": 0.01209307921015474,
+            "Hand Face Attr information value": 0.01222768034328603,
+            "Earring information value": 0.009006288255284954,
+            "Back information value": 0.01596404132276222,
+            "Neck information value": 0.011591683002897124,
+            "Hand Open R Attr information value": 0.020333863873307857,
+            "Hand Palm Attr information value": 0.010345326149174402,
+            "Hand Hold Attr information value": 0.00980212182666047,
+            "Head information value": 0.08063141793897728,
+            "Legendary information value": 0.04565549619711372,
+            "Trait count information value": 0.005557439547121001,
+            "Unique": 0.4282862195561207
+          },
+          "funTrain": -0.352456168725064,
+          "funTest": -0.3565041906736555
+        },
+        "unfitted": {
+          "fun": -0.2428735961344538
+        }
+      }
+    }
+  },
+  {
+    "AZUKI": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Background information value": 0.06670305374521189,
+            "Offhand information value": 0.05625414857928161,
+            "Mouth information value": 0.017849698362144003,
+            "Eyes information value": 0.0559422939409336,
+            "Clothing information value": 0.16198468390051998,
+            "Hair information value": 0.3597823420637415,
+            "Type information value": 0.07955820157630052,
+            "Ear information value": 0.02402740054641663,
+            "Neck information value": 0.013363191620364066,
+            "Headgear information value": 0.007584788545293283,
+            "Face information value": 0.009737894235330823,
+            "Special information value": 0.13339572285396945,
+            "Trait count information value": 0.0004813743867940145,
+            "Unique": 0.0004813743867940107
+          },
+          "funTrain": -0.5007867276656216,
+          "funTest": -0.04414764432416053
+        },
+        "unfitted": {
+          "fun": -0.02250931516902607
+        }
+      }
+    }
+  },
+  {
+    "ABS": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Broken Background information value": 0.020741293265186696,
+            "Double Trouble information value": 0.004858491312751362,
+            "Error Terror information value": 0.08074892377874843,
+            "Background Branded information value": 0.0026299204309581177,
+            "Background Colorway information value": 0.0929133272323047,
+            "Background Name information value": 4.5625190125319785e-18,
+            "Branded information value": 0.0215341984010611,
+            "Spark information value": 0.02006646245196842,
+            "Year information value": 0.006224789162395895,
+            "Distribution information value": -1.1221180690765994e-18,
+            "Bomb Type information value": 0.0333381063020814,
+            "Character information value": 0.16213883824948103,
+            "Background Year information value": 0.004510641346495626,
+            "Colorway information value": 0.003367389209482677,
+            "Body Color information value": 4.978079143845341e-17,
+            "Sticker information value": 0.057131741341314005,
+            "Outer Spark Color information value": 0.005861865634258121,
+            "Inner Spark Color information value": 0.004972468876592679,
+            "Outline Color information value": 8.084309552798238e-17,
+            "Tooth Color information value": -1.8845631773402448e-17,
+            "Eye Ring Color information value": -9.293760178931742e-19,
+            "Bandana Color information value": 1.0127224068613758e-17,
+            "Theme information value": -3.2090441301803893e-17,
+            "Earring Color information value": 9.124839631637963e-18,
+            "Lips Color information value": 1.2301191837123548e-17,
+            "Trait count information value": 5.427648118818724e-06,
+            "Unique": 0.4461994108946328
+          },
+          "funTrain": -0.18834204104360966,
+          "funTest": -0.22601336729939883
+        },
+        "unfitted": {
+          "fun": -0.11069619798834776
+        }
+      }
+    }
+  },
+  {
+    "WOW": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Lips Color information value": 0.04249855461086815,
+            "Mouth information value": 0.06176671496981801,
+            "Earrings information value": 0.020239586391551552,
+            "Necklace information value": 0.028938031592820032,
+            "Clothes information value": 0.22971598663290207,
+            "Hairstyle information value": 0.11556041863909766,
+            "Facial Features information value": 0.022553047779334194,
+            "Eyes information value": 0.06830093088482753,
+            "Skin Tone information value": 0.3919015739936164,
+            "Background information value": 0.0001559150605258205,
+            "Face Accessories information value": 0.014805821169138993,
+            "Trait count information value": 0.0005202901387326579,
+            "Unique": 0.0005202901387326585
+          },
+          "funTrain": -0.4381936051031041,
+          "funTest": -0.10756694430850079
+        },
+        "unfitted": {
+          "fun": -0.03951920041527706
+        }
+      }
+    }
+  },
+  {
+    "GHOST": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Back information value": 0.08381866374896492,
+            "Outfit information value": 5.353248226647178e-19,
+            "Eyes information value": 3.865900667586088e-18,
+            "Head information value": 0.09320974096890534,
+            "Mouth information value": 0.01349350469333307,
+            "Regiment information value": 7.311963072971271e-05,
+            "Background information value": 0.06836675918487886,
+            "Type information value": 0.011185977999242551,
+            "Branch information value": 0.042393400668395455,
+            "Glasses information value": 0.010964670555724847,
+            "Special information value": 0.2577059332057186,
+            "Earring information value": 0.06279062015126113,
+            "Mask information value": 0.07864267414682917,
+            "Marking information value": -3.1431904689205486e-18,
+            "Trait count information value": 7.311963072971874e-05,
+            "Unique": 0.24147477024738945
+          },
+          "funTrain": -0.23614564358774714,
+          "funTest": -0.15751789593441837
+        },
+        "unfitted": {
+          "fun": -0.09524297923962204
+        }
+      }
+    }
+  },
+  {
+    "CAT": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "item information value": 0.06567324920754442,
+            "tattoo information value": 0.021848856928498344,
+            "mouth information value": 0.5463811510574389,
+            "hair information value": 1.813733459011831e-16,
+            "eyes information value": 0.07958134437693533,
+            "skin information value": 1.2984377582379706e-16,
+            "body information value": 0.2694945512467892,
+            "tail information value": -5.053126904924938e-17,
+            "main information value": 4.9629465160415656e-17,
+            "background information value": 7.403963545290404e-17,
+            "mustache information value": 3.859830987279888e-18,
+            "glasses information value": -1.3441668495298191e-17,
+            "mask information value": 1.1116325724211308e-16,
+            "hat information value": 0.01702084718279416,
+            "Trait count information value": -1.4689754985478148e-17,
+            "Unique": -3.512297717636407e-18
+          },
+          "funTrain": -0.4667042955714219,
+          "funTest": -0.9785524054875784
+        },
+        "unfitted": {
+          "fun": -0.8659103790385286
+        }
+      }
+    }
+  },
+  {
+    "KAIJU": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Augmint information value": 1.8166554095550988e-17,
+            "Legendary information value": 0.17715863329521617,
+            "Origin information value": 0.2346200391466185,
+            "Advocate information value": 0.12276642310302957,
+            "Hat information value": 0.006801658860086994,
+            "Eyes information value": 0.0047082685523773095,
+            "Neck information value": 0.007023494066653895,
+            "Body information value": 0.08499319627024259,
+            "Background information value": 0.02454730589991902,
+            "Mouth information value": 0.002233644408572437,
+            "Nosering information value": 0.013338688641990054,
+            "Special information value": 0.0820401918705149,
+            "Spikes information value": -2.7552835484057607e-18,
+            "Skin information value": 9.534609540613679e-19,
+            "origin information value": 4.206360070254125e-18,
+            "Trait count information value": 5.974842677079881e-06,
+            "Unique": 0.12320385562691873
+          },
+          "funTrain": -0.5639660404332191,
+          "funTest": -0.2142500736483806
+        },
+        "unfitted": {
+          "fun": -0.0801397019530489
+        }
+      }
+    }
+  },
+  {
+    "KONGZ": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Type information value": 0.22866340950115896,
+            "birthday information value": 0.022070487584297797,
+            "Legendary Trait information value": 0.395838842930159,
+            "Genesis Trait information value": 0.29530642922967815,
+            "Baby Trait information value": 1.1954872536269625e-18,
+            "Trait count information value": 0.016286056825044814,
+            "Unique": 0.014410959215953258
+          },
+          "funTrain": -0.6292175883784764,
+          "funTest": -0.132391617758121
+        },
+        "unfitted": {
+          "fun": -0.0684861300335193
+        }
+      }
+    }
+  },
+  {
+    "ARCLAND": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Location information value": -1.1773126285182394e-19,
+            "Underground information value": 0.012417436786778037,
+            "Region information value": 0.06886567334406744,
+            "Size information value": 0.9187168898691543,
+            "Trait count information value": -2.4307793973404488e-20,
+            "Unique": -1.0006193278253003e-20
+          },
+          "funTrain": -0.8807910716835494,
+          "funTest": -0.4516357973788893
+        },
+        "unfitted": {
+          "fun": -0.4399612277503258
+        }
+      }
+    }
+  },
+  {
+    "LION": {
+      "openRarity": {
+        "fitted": {
+          "weights": {
+            "Mouth information value": 0.037758571242513944,
+            "Mane information value": 0.06930429968224108,
+            "Headgear information value": 0.02722082177990486,
+            "Eyes information value": 0.10806250095675693,
+            "Earring information value": 0.04138365678969127,
+            "Bodygear information value": 0.29706554183080064,
+            "Body information value": 0.03105966550900041,
+            "Background information value": 0.05305781217190541,
+            "Signature Series information value": 0.2417373024708563,
+            "Trait count information value": 0.0246761590158244,
+            "Unique": 0.06744822812775161
+          },
+          "funTrain": -0.3123974425986862,
+          "funTest": -0.16856805445344342
+        },
+        "unfitted": {
+          "fun": -0.134343930423224
+        }
+      }
+    }
+  }
+]
