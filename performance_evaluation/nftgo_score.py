@@ -30,8 +30,6 @@ def metadataJsonToDF(metadata):
     traitsDF = pd.concat([pd.DataFrame(trait) for trait in traits]).reset_index(drop=True)
     return traitsDF, problems
 
-# Old version without vectorized calculations.
-
 '''
 def loop_for_i(index_i, token_i):
     global traits_data
@@ -75,54 +73,38 @@ def init_worker(matrix):
     global collection_matrix_glob
     collection_matrix_glob = matrix
 
-def loop_for_i(index_i, attributes_count):
+def loop_for_i(index_i):
     global collection_matrix_glob
     intersection = (collection_matrix_glob[index_i] * collection_matrix_glob).sum(axis=1)
-    union = 2 * attributes_count - intersection
-    score = np.average(1 - intersection / union)
-    return score
+    union = 2 * len(collection_matrix_glob) - intersection
+    return np.average(1 - intersection / union)
 
 def nftGoScore(traits_data):
     tokenIdColumn = traits_data['Token Id']
     traits_data = traits_data.drop('Token Id', axis=1)
-    traits_data = traits_data.replace(np.nan, "None")
+    #traits_data = traits_data.replace(np.nan, "None")
+    traits_data = traits_data.fillna('None')
     token_scores = []
     token_supply = len(traits_data)
     collection_matrix = [[] for _ in range(token_supply)]
     for attribute in traits_data.columns:
         attribute_values = traits_data[attribute].value_counts().index.tolist()
-
-        # Uncomment next 2 segments to not take into account None traits.
-        '''
-        try:
-            attribute_values.remove("None")
-        except:
-            pass
-        '''
         for i in range(token_supply):
-            attribute_dummy = [0 for _ in range(len(attribute_values))]
-            '''
-            if traits_data[attribute].iloc[i] != "None":
-                index = attribute_values.index(traits_data[attribute].iloc[i])
-                attribute_dummy[index] = 1
-            '''
             index = attribute_values.index(traits_data[attribute].iloc[i])
+            attribute_dummy = [0 for _ in range(len(attribute_values))]
             attribute_dummy[index] = 1
-            
             collection_matrix[i] += attribute_dummy
     collection_matrix = np.array(collection_matrix)
 
-    # Non-parallel vectorized version.
-    ''' 
-    args = [(i, len(traits_data.columns)) for i in range(token_supply)]
     with Pool(initializer=init_worker, initargs=(collection_matrix,)) as pool:
-        token_scores = pool.starmap(loop_for_i, args)
+        token_scores = pool.map(loop_for_i, range(token_supply))
     '''
     for i in range(token_supply):
         intersection = (collection_matrix[i] * collection_matrix).sum(axis=1)
         union = 2 * len(traits_data.columns) - intersection
         token_scores.append(np.average(1 - intersection / union))
-      
+    '''    
+    #print(len(collection_matrix))
     min_val, max_val = min(token_scores), max(token_scores)
     normalized_scores = [100. * ((x - min_val) / (max_val - min_val)) for x in token_scores]
     traits_data['Rarity score'] = normalized_scores
@@ -130,21 +112,25 @@ def nftGoScore(traits_data):
     return traits_data
     
 
-metadataPath = '/home/ubuntu/projects/unipro/models/rarity/metadata'
+
+metadataPath = 'dataset/metadata'
 onlyfiles = natsorted([f for f in listdir(metadataPath) if isfile(join(metadataPath, f))])
 
-nftGoScoresPath = '/home/ubuntu/projects/unipro/models/rarity/nftgo_scores'
+nftGoScoresPath = 'results/nftgo_scores'
 
-problems = {}
-for fileName in tqdm(onlyfiles):
-    print(f"{fileName.split('_')[0]} - start processing.")
-    ''''''
-    with open(metadataPath + '/' + fileName, 'r') as file:
-        metadataDF, collection_problems = metadataJsonToDF(json.load(file))
-        problems[fileName[:fileName.find("_")]] = collection_problems
-    scores = nftGoScore(metadataDF) 
-    scores.to_csv(nftGoScoresPath + '/' + fileName[:fileName.find("_")] + '_nftgo_scores.csv', index=False)
-    
-    
-with open('problems.json', "w") as file:
-    json.dump(problems, file, indent=2) 
+# skipped - don't forget: BEANZ-10 | 12
+
+if __name__ == '__main__':
+    problems = {}
+    for fileName in tqdm(onlyfiles):
+        if fileName.startswith('XBORG'):
+            print(f"{fileName.split('_')[0]} - start processing.")
+            ''''''
+            with open(metadataPath + '/' + fileName, 'r') as file:
+                metadataDF, collection_problems = metadataJsonToDF(json.load(file))
+                problems[fileName[:fileName.find("_")]] = collection_problems
+            scores = nftGoScore(metadataDF) 
+            scores.to_csv(nftGoScoresPath + '/' + fileName[:fileName.find("_")] + '_nftgo_scores_2.csv')
+        
+    with open('problems.json', "w") as file:
+        json.dump(problems, file, indent=2) 

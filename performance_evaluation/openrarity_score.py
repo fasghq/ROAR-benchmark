@@ -78,19 +78,19 @@ def openRarityScore(traits_data):
     return rarityScores
 
 
-metadataPath = '/home/ubuntu/projects/unipro/models/rarity/metadata'
+metadataPath = 'dataset/metadata'
+openRarityScoresPath = '../results/openrarity_scores'
 onlyfiles = natsorted([f for f in listdir(metadataPath) if isfile(join(metadataPath, f))])
 
-openRarityScoresPath = '/home/ubuntu/projects/unipro/models/rarity/openrarity_scores'
+if __name__ == '__main__':
+    problems = {}
+    for fileName in tqdm(onlyfiles):
+        print(f"{fileName.split('_')[0]} - start processing.")
+        with open(metadataPath + '/' + fileName, 'r') as file:
+            metadataDF, collection_problems = metadataJsonToDF(json.load(file))
+            problems[fileName[:fileName.find("_")]] = collection_problems
+        scores = openRarityScore(metadataDF) 
+        scores.to_csv(openRarityScoresPath + '/' + fileName[:fileName.find("_")] + '_openrarity_scores.csv')
 
-problems = {}
-for fileName in tqdm(onlyfiles):
-    print(f"{fileName.split('_')[0]} - start processing.")
-    with open(metadataPath + '/' + fileName, 'r') as file:
-        metadataDF, collection_problems = metadataJsonToDF(json.load(file))
-        problems[fileName[:fileName.find("_")]] = collection_problems
-    scores = openRarityScore(metadataDF) 
-    scores.to_csv(openRarityScoresPath + '/' + fileName[:fileName.find("_")] + '_openrarity_scores.csv')
-
-with open('problems.json', "w") as file:
-    json.dump(problems, file, indent=2) 
+    with open('problems.json', "w") as file:
+        json.dump(problems, file, indent=2) 

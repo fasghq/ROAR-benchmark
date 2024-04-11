@@ -51,19 +51,20 @@ def rarityToolsScore(traits_data, weighted=False):
     rarityScores['Token Id'] = tokenIdColumn
     return rarityScores
 
-metadataPath = '/home/ubuntu/projects/unipro/models/rarity/metadata'
+
+metadataPath = 'dataset/metadata'
+rarityToolsScoresPath =  '../results/raritytools_scores'
 onlyfiles = natsorted([f for f in listdir(metadataPath) if isfile(join(metadataPath, f))])
 
-rarityToolsScoresPath = '/home/ubuntu/projects/unipro/models/rarity/raitytools_scores'
+if __name__ == "__main__":
+    problems = {}
+    for fileName in tqdm(onlyfiles[1:]):
+        print(f"{fileName.split('_')[0]} - start processing.")
+        with open(metadataPath + '/' + fileName, 'r') as file:
+            metadataDF, collection_problems = metadataJsonToDF(json.load(file))
+            problems[fileName[:fileName.find("_")]] = collection_problems
+        scores = rarityToolsScore(metadataDF) # added weighed=True 
+        scores.to_csv(rarityToolsScoresPath + '/' + fileName[:fileName.find("_")] + '_raritytools_scores.csv')
 
-problems = {}
-for fileName in tqdm(onlyfiles[1:]):
-    print(f"{fileName.split('_')[0]} - start processing.")
-    with open(metadataPath + '/' + fileName, 'r') as file:
-        metadataDF, collection_problems = metadataJsonToDF(json.load(file))
-        problems[fileName[:fileName.find("_")]] = collection_problems
-    scores = rarityToolsScore(metadataDF) 
-    scores.to_csv(rarityToolsScoresPath + '/' + fileName[:fileName.find("_")] + '_raritytools_scores.csv')
-
-with open('problems.json', "w") as file:
-    json.dump(problems, file, indent=2) 
+    with open('problems.json', "w") as file:
+        json.dump(problems, file, indent=2) 
