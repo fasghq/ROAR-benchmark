@@ -1,3 +1,4 @@
+import os
 from os import listdir
 from os.path import isfile, join
 from collections import ChainMap
@@ -75,23 +76,26 @@ def kramerScore(traits_data, collection_symbol):
     return rarityScores
 
 
-metadataPath = '/home/ubuntu/projects/unipro/models/rarity/metadata'
+metadataPath = 'dataset/metadata'
 onlyfiles = natsorted([f for f in listdir(metadataPath) if isfile(join(metadataPath, f))])
-onlyfiles = ['POETS_metadata.json']
+# onlyfiles = ['XBORG_metadata.json']
 
-kramerScoresPath = '/home/ubuntu/projects/unipro/models/rarity/kramer_scores'
+kramerScoresPath = 'results/kramer_scores'
 
-problems = {}
-for fileName in tqdm(onlyfiles):
-    print(f"{fileName.split('_')[0]} - start processing.")
-    with open(metadataPath + '/' + fileName, 'r') as file:
-        metadataDF, collection_problems = metadataJsonToDF(json.load(file))
-        problems[fileName[:fileName.find("_")]] = collection_problems
-    scores = kramerScore(metadataDF, fileName[:fileName.find("_")]) 
-    scores.to_csv(kramerScoresPath + '/' + fileName[:fileName.find("_")] + '_kramer_scores.csv')
-    
-with open('problems.json', "w") as file:
-    json.dump(problems, file, indent=2) 
+if __name__ == '__main__':
+    problems = {}
+    for fileName in tqdm(onlyfiles):
+        print(f"{fileName.split('_')[0]} - start processing.")
+        with open(metadataPath + '/' + fileName, 'r') as file:
+            metadataDF, collection_problems = metadataJsonToDF(json.load(file))
+            problems[fileName[:fileName.find("_")]] = collection_problems
+        scores = kramerScore(metadataDF, fileName[:fileName.find("_")]) 
+        if not os.path.isdir(kramerScoresPath):
+                os.mkdir(kramerScoresPath)
+        scores.to_csv(kramerScoresPath + '/' + fileName[:fileName.find("_")] + '_kramer_scores.csv')
+        
+    with open('problems.json', "w") as file:
+        json.dump(problems, file, indent=2) 
 
 #CAT~13, COOL-19, NEOTI-65, NEOTOI-66, POETS-74
 #main:main, body:blue cat skin, Status:First Citizen, Status:Outer Citizen, influence:... - all values same => 0
