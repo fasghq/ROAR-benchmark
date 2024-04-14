@@ -1,13 +1,8 @@
-import copy
 import dataclasses
-import pandas as pd
 import json
-import time
 import typing as tp
 import performance_evaluation.openrarity_score as openrarity
-import performance_evaluation.raritytools_score as raritytools
 from performance_evaluation.openrarity_score import openRarityScore
-from performance_evaluation.raritytools_score import rarityToolsScore
 
 import pytest
 

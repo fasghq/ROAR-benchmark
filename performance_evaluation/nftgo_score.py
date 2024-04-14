@@ -1,3 +1,4 @@
+import os
 from os import listdir
 from os.path import isfile, join
 from collections import ChainMap
@@ -129,7 +130,9 @@ if __name__ == '__main__':
             with open(metadataPath + '/' + fileName, 'r') as file:
                 metadataDF, collection_problems = metadataJsonToDF(json.load(file))
                 problems[fileName[:fileName.find("_")]] = collection_problems
-            scores = nftGoScore(metadataDF) 
+            scores = nftGoScore(metadataDF)
+            if not os.path.isdir(nftGoScoresPath):
+                os.mkdir(nftGoScoresPath)
             scores.to_csv(nftGoScoresPath + '/' + fileName[:fileName.find("_")] + '_nftgo_scores_2.csv')
         
     with open('problems.json', "w") as file:
