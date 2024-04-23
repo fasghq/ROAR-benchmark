@@ -79,7 +79,7 @@ def openRarityScore(traits_data):
 
 
 metadataPath = 'dataset/metadata'
-openRarityScoresPath = '../results/openrarity_scores'
+openRarityScoresPath = 'results/scores/openrarity_scores'
 onlyfiles = natsorted([f for f in listdir(metadataPath) if isfile(join(metadataPath, f))])
 
 if __name__ == '__main__':

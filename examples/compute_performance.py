@@ -125,14 +125,15 @@ def computePerformance(contractName, mode='train'):
 
 metadataPath = 'dataset/metadata' # '/home/ubuntu/projects/unipro/models/rarity/metadata'
 tradedataPath = 'dataset/tradedata' # '/home/ubuntu/projects/unipro/models/rarity/tradedata'
-raritytoolsScoresPath = 'raritytools_scores' # '/home/ubuntu/projects/unipro/models/rarity/raitytools_scores'
+raritytoolsScoresPath = 'results/raritytools_scores' # '/home/ubuntu/projects/unipro/models/rarity/raitytools_scores'
 openRarityScoresPath = 'results/openrarity_scores' # '/home/ubuntu/projects/unipro/models/rarity/openrarity_scores'
-kramerScoresPath = '/home/ubuntu/projects/unipro/models/rarity/kramer_scores'
-nftGoScoresPath = 'results/nftgo_scores' #/home/ubuntu/projects/unipro/models/rarity/nftgo_scores'
-raritytoolsCorrTrainPath = '/home/ubuntu/projects/unipro/models/rarity/raritytools_corr_train'
+kramerScoresPath = 'results/kramer_scores' # '/home/ubuntu/projects/unipro/models/rarity/kramer_scores'
+nftGoScoresPath = 'results/nftgo_scores' # '/home/ubuntu/projects/unipro/models/rarity/nftgo_scores'
+raritytoolsCorrTrainPath = 'results/raritytools_corr_train' # '/home/ubuntu/projects/unipro/models/rarity/raritytools_corr_train'
 
 collectionsDF = pd.read_csv(
-    '/home/ubuntu/projects/unipro/models/rarity/100NFTCollections - 100NFT_UPD.csv',
+    # '/home/ubuntu/projects/unipro/models/rarity/100NFTCollections - 100NFT_UPD.csv',
+    'collections-list.csv',
     names=['Collection', 'Symbol', 'Address', 'Total Supply'],
     header=None
 ).drop(0, axis='index')
@@ -142,24 +143,24 @@ failed = {} # BEANZ-10
 for contractName in tqdm(contractNames):
     print(f"{contractName} - start processing.")
     ''''''
-    try:
-        minimizationResults = computePerformance(contractName, mode='train')
-        resultsDict = {
-            'x': minimizationResults.x.tolist(), 
-            'fun': minimizationResults.fun, 
-            'success': bool(minimizationResults.success),
-            'message': minimizationResults.message,
-            'jac': minimizationResults.jac.tolist(),
-            'nit': minimizationResults.nit,
-            'nfev': minimizationResults.nfev,
-            'njev': minimizationResults.njev,
-            'status': minimizationResults.status
-        }
+    # try:
+    minimizationResults = computePerformance(contractName, mode='train')
+    resultsDict = {
+        'x': minimizationResults.x.tolist(), 
+        'fun': minimizationResults.fun, 
+        'success': bool(minimizationResults.success),
+        'message': minimizationResults.message,
+        'jac': minimizationResults.jac.tolist(),
+        'nit': minimizationResults.nit,
+        'nfev': minimizationResults.nfev,
+        'njev': minimizationResults.njev,
+        'status': minimizationResults.status
+    }
 
-        with open(raritytoolsCorrTrainPath + '/' + contractName + '_raritytools_corr_train.json', "w") as file:
-            json.dump(resultsDict, file, indent=2) 
-    except:
-        failed[contractName] = 1
+    with open(raritytoolsCorrTrainPath + '/' + contractName + '_raritytools_corr_train.json', "w") as file:
+        json.dump(resultsDict, file, indent=2) 
+    # except:
+        # failed[contractName] = 1
     
 if len(failed) > 0:
     with open('failed_raritytools_corr_train.json', "w") as file:

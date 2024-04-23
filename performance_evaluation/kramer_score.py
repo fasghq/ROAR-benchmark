@@ -80,7 +80,7 @@ metadataPath = 'dataset/metadata'
 onlyfiles = natsorted([f for f in listdir(metadataPath) if isfile(join(metadataPath, f))])
 # onlyfiles = ['XBORG_metadata.json']
 
-kramerScoresPath = 'results/kramer_scores'
+kramerScoresPath = 'results/scores/kramer_scores'
 
 if __name__ == '__main__':
     problems = {}

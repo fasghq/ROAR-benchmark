@@ -53,7 +53,7 @@ def rarityToolsScore(traits_data, weighted=False):
 
 
 metadataPath = 'dataset/metadata'
-rarityToolsScoresPath =  '../results/raritytools_scores'
+rarityToolsScoresPath =  'results/scores/raritytools_scores'
 onlyfiles = natsorted([f for f in listdir(metadataPath) if isfile(join(metadataPath, f))])
 
 if __name__ == "__main__":

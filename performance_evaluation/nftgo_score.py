@@ -117,14 +117,15 @@ def nftGoScore(traits_data):
 metadataPath = 'dataset/metadata'
 onlyfiles = natsorted([f for f in listdir(metadataPath) if isfile(join(metadataPath, f))])
 
-nftGoScoresPath = 'results/nftgo_scores'
+nftGoScoresPath = 'results/scores/nftgo_scores'
 
 # skipped - don't forget: BEANZ-10 | 12
 
 if __name__ == '__main__':
     problems = {}
+    was_poets = False
     for fileName in tqdm(onlyfiles):
-        if fileName.startswith('XBORG'):
+        if was_poets:
             print(f"{fileName.split('_')[0]} - start processing.")
             ''''''
             with open(metadataPath + '/' + fileName, 'r') as file:
@@ -134,6 +135,8 @@ if __name__ == '__main__':
             if not os.path.isdir(nftGoScoresPath):
                 os.mkdir(nftGoScoresPath)
             scores.to_csv(nftGoScoresPath + '/' + fileName[:fileName.find("_")] + '_nftgo_scores_2.csv')
+        if fileName.startswith('POETS'):
+            was_poets = True
         
     with open('problems.json', "w") as file:
         json.dump(problems, file, indent=2) 

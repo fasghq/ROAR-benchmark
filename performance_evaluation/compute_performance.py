@@ -170,52 +170,53 @@ def computePerformance(contractName, mode='train', rarity_meter='raritytools'):
     return minimizationResults
     
 
-metadataPath = '/home/ubuntu/projects/unipro/models/rarity/metadata'
-tradedataPath = '/home/ubuntu/projects/unipro/models/rarity/tradedata'
+metadataPath = 'dataset/metadata'
+tradedataPath = 'dataset/tradedata'
+
 
 scoresPaths = {
-    'raritytools': '/home/ubuntu/projects/unipro/models/rarity/raitytools_scores',
-    'kramer': '/home/ubuntu/projects/unipro/models/rarity/kramer_scores',
-    'openrarity': '/home/ubuntu/projects/unipro/models/rarity/openrarity_scores',
-    'nftgo': '/home/ubuntu/projects/unipro/models/rarity/nftgo_scores'
+    'raritytools': 'results/scores/raritytools_scores',
+    'kramer': 'results/scores/kramer_scores',
+    'openrarity': 'results/scores/openrarity_scores',
+    'nftgo': 'results/scores/nftgo_scores'
 }
 
 corrPaths = {
     'raritytools': {
-        'train_vanilla': '/home/ubuntu/projects/unipro/models/rarity/raritytools_corr_train_vanilla',
-        'train_opt': '/home/ubuntu/projects/unipro/models/rarity/raritytools_corr_train_opt',
-        'test_vanilla': '/home/ubuntu/projects/unipro/models/rarity/raritytools_corr_test_vanilla',
-        'test_opt': '/home/ubuntu/projects/unipro/models/rarity/raritytools_corr_test_opt'
+        'train_vanilla': 'results/train/raritytools_corr_train_vanilla',
+        'train_opt': 'results/train/raritytools_corr_train_opt',
+        'test_vanilla': 'results/train/raritytools_corr_test_vanilla',
+        'test_opt': 'results/train/raritytools_corr_test_opt'
     },
     'kramer': {
-        'train_vanilla': '/home/ubuntu/projects/unipro/models/rarity/kramer_corr_train_vanilla',
-        'train_opt': '/home/ubuntu/projects/unipro/models/rarity/kramer_corr_train_opt',
-        'test_vanilla': '/home/ubuntu/projects/unipro/models/rarity/kramer_corr_test_vanilla',
-        'test_opt': '/home/ubuntu/projects/unipro/models/rarity/kramer_corr_test_opt'
+        'train_vanilla': 'results/train/kramer_corr_train_vanilla',
+        'train_opt': 'results/train/kramer_corr_train_opt',
+        'test_vanilla': 'results/train/kramer_corr_test_vanilla',
+        'test_opt': 'results/train/kramer_corr_test_opt'
     },
     'openrarity': {
-        'train_vanilla': '/home/ubuntu/projects/unipro/models/rarity/openrarity_corr_train_vanilla',
-        'train_opt': '/home/ubuntu/projects/unipro/models/rarity/openrarity_corr_train',
-        'test_vanilla': '/home/ubuntu/projects/unipro/models/rarity/openrarity_corr_test_vanilla50',
-        'test_opt': '/home/ubuntu/projects/unipro/models/rarity/openrarity_corr_test_opt',
-        'test_basic': '/home/ubuntu/projects/unipro/models/rarity/openrarity_corr_test_basic50',
-        'test_trait_count': '/home/ubuntu/projects/unipro/models/rarity/openrarity_corr_test_trait_count50',
-        'test_unique_trait_count': '/home/ubuntu/projects/unipro/models/rarity/openrarity_test_unique_trait_count50'
+        'train_vanilla': 'results/train/openrarity_corr_train_vanilla',
+        'train_opt': 'results/train/openrarity_corr_train',
+        'test_vanilla': 'results/train/openrarity_corr_test_vanilla50',
+        'test_opt': 'results/train/openrarity_corr_test_opt',
+        'test_basic': 'results/train/openrarity_corr_test_basic50',
+        'test_trait_count': 'results/train/openrarity_corr_test_trait_count50',
+        'test_unique_trait_count': 'results/train/openrarity_test_unique_trait_count50'
     },
     'nftgo': {
-        'train_vanilla': '/home/ubuntu/projects/unipro/models/rarity/nftgo_corr_train_vanilla',
-        'test_vanilla': '/home/ubuntu/projects/unipro/models/rarity/nftgo_corr_test_vanilla'
+        'train_vanilla': 'results/train/nftgo_corr_train_vanilla',
+        'test_vanilla': 'results/train/nftgo_corr_test_vanilla'
     },
     'roar': {
-        'train': '/home/ubuntu/projects/unipro/models/rarity/roar_corr_train',
-        'train_opt': '/home/ubuntu/projects/unipro/models/rarity/roar_corr_train_opt99',
+        'train': 'results/train/roar_corr_train',
+        'train_opt': 'results/train/roar_corr_train_opt99',
         'test_vanilla': '',
-        'test_opt': '/home/ubuntu/projects/unipro/models/rarity/roar_corr_test_opt'
+        'test_opt': 'results/train/roar_corr_test_opt'
     }
 }
 
 collectionsDF = pd.read_csv(
-    '/home/ubuntu/projects/unipro/models/rarity/100NFTCollections - 100NFT_UPD.csv',
+    'collections-list.csv',
     names=['Collection', 'Symbol', 'Address', 'Total Supply'],
     header=None
 ).drop(0, axis='index')
